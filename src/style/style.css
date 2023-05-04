@@ -1,0 +1,22 @@
+.country-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.country {
+    border: 1px solid black;
+}
+
+.TEST {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
