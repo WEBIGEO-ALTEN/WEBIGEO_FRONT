@@ -3,6 +3,7 @@ import axios from 'axios';
 import Question from './Question';
 import Final from './Final';
 import CountryDescription from './CountryDescription';
+import Timer from './Timer';
 
 class Quiz extends React.Component {
 
@@ -23,8 +24,13 @@ class Quiz extends React.Component {
         this.handleWrongAnswer = this.handleWrongAnswer.bind(this);
     }
 
+    sortCountry(arr, answer) {
+        return arr.filter(pay => pay !== answer)
+    }
 
     componentDidMount() {
+
+
 
         axios
             // Get our quiz options
@@ -46,7 +52,7 @@ class Quiz extends React.Component {
                                 var choicesArr = [];
                                 for (var i = 0; i < nbrQuestions; i++) {
                                     // We chose 3 other countries to populate the answers, the 3 can't be the answer
-                                    var choices = this.state.countries.filter(pay => pay !== answerCountries[i]).sort(() => 0.5 - Math.random()).slice(0, 3);
+                                    var choices = this.sortCountry(this.state.countries, answerCountries[i]).sort(() => 0.5 - Math.random()).slice(0, 3);
                                     choicesArr.push(choices);
                                 }
 
@@ -102,6 +108,7 @@ class Quiz extends React.Component {
                 {this.state.currQuestion <= this.state.choices.length ? <Question type_question={type_question} handleWrongAnswer={this.handleWrongAnswer} handleGoodAnswer={this.handleGoodAnswer} handleAnwser={this.state.currQuestion <= this.state.choices.length ? this.handleAnwser : ""} choice={this.state.choices[this.state.currQuestion - 1]} answer={this.state.answers[this.state.currQuestion - 1]} /> : <Final goodanswer={this.state.goodanswer} nbrQuestions={this.state.choices.length} />}
                 <div className={this.state.good ? "green" : "red"}>{pay && 2 <= this.state.currQuestion && this.state.currQuestion <= this.state.choices.length ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>
             </>
+            <Timer active={this.state.currQuestion <= this.state.choices.length} />
         </div>
     }
 }
