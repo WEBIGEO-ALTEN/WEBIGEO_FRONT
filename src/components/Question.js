@@ -14,11 +14,11 @@ class Question extends React.Component {
 
     goodAnswer() {
         this.props.handleGoodAnswer()
-        console.log('oui')
+
     }
     wrongAnswer() {
         this.props.handleWrongAnswer();
-        console.log('non')
+
     }
 
     handleTitle(q, a) {

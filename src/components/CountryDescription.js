@@ -11,7 +11,7 @@ class CountryDescription extends React.Component {
 
     render() {
 
-        console.log(this.props.shape.split('/').slice(3, 4)[0])
+
         return <div className="country">
             <h1>{this.props.name}</h1>
             <img src={require("../images/flag/" + this.props.iso.toLowerCase() + ".png")} alt={this.props.iso} />

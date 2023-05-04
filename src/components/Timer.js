@@ -1,19 +1,25 @@
 import { useEffect, useState } from "react"
 
-function Timer({ active }) {
+function Timer({ active, saveTime }) {
     var [timer, setTime] = useState(0);
-
+    var [interval, setThisInterval] = useState(null);
 
     useEffect(() => {
-        let interval = null;
+        console.log("active", active)
+
         if (active) {
-            interval = setInterval(() => {
-                setTime((time) => time + 10)
-            }, 10)
+            console.log('ici')
+            setThisInterval(setInterval(() => {
+                setTime((time) => time + 100)
+            }, 100))
+
         } else {
+
             clearInterval(interval)
+            saveTime(Math.round(timer / 10))
+
         }
-        return () => { clearInterval(interval) }
+
     }, [active]);
 
     return (
