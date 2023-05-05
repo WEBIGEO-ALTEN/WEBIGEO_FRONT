@@ -50,18 +50,18 @@ function Quiz2() {
         const nbrQuestions = Math.min(quiz.nbr_question, countries.length);
         // We chose an answer for each question
 
-        var answerCountries = [...countries].sort(() => 0.5 - Math.random()).slice(0, nbrQuestions);
+        var answerCountries = gogoShuff([...countries]).slice(0, nbrQuestions);
         var choicesArr = [];
         for (var i = 0; i < nbrQuestions; i++) {
             // We chose 3 other countries to populate the answers, the 3 can't be the answer
-            var choices = sortCountry(countries, answerCountries[i]).sort(() => 0.5 - Math.random()).slice(0, 3);
+            var choices = gogoShuff(sortCountry(countries, answerCountries[i])).slice(0, 3);
             choicesArr.push(choices);
         }
         setAnswers(answerCountries);
         setChoices(choicesArr);
     }, [countries, quiz.nbr_question])
 
-
+    const gogoShuff = xx => xx.map(x => [x, Math.random()]).sort((a, b) => a[1] - b[1]).map(x => x[0]);
 
     const handleAnwser = () => { setCurrQuestion(currQuestion + 1) };
     const handleGoodAnswer = () => {
@@ -134,7 +134,7 @@ function Quiz2() {
 
                 {currQuestion <= choices.length ?
                     <Question type_question={type_question} handleWrongAnswer={handleWrongAnswer} handleGoodAnswer={handleGoodAnswer} handleAnwser={currQuestion <= choices.length ? handleAnwser : ""} choice={choices[currQuestion - 1]} answer={answers[currQuestion - 1]} /> :
-                    <>{time ? <Final updateRecord={updateRecord} goodanswer={goodanswer} nbrQuestions={choices.length} time={time} /> : "Wait"}
+                    <>{time ? <Final updateRecord={updateRecord} goodanswer={goodanswer} nbrQuestions={choices.length} time={time} id={id} /> : "Wait"}
                         {time ? <div>{convertTime(time)}</div> : "Wait"}
                         {recordTable}</>}
                 <div className={good ? "green" : "red"}>{pay && 2 <= currQuestion && currQuestion <= choices.length ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>

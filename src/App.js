@@ -14,7 +14,8 @@ import Menu2 from './components/Menu2';
 
 function App() {
 
-
+  //const φ1 = lat1 * Math.PI/180, φ2 = lat2 * Math.PI/180, Δλ = (lon2-lon1) * Math.PI/180, R = 6371e3;
+  //const d = Math.acos( Math.sin(φ1)*Math.sin(φ2) + Math.cos(φ1)*Math.cos(φ2) * Math.cos(Δλ) ) * R;
   return (
     <>
       <Router>

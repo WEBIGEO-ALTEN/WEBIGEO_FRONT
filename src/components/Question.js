@@ -10,6 +10,7 @@ class Question extends React.Component {
 
         this.goodAnswer = this.goodAnswer.bind(this)
         this.wrongAnswer = this.wrongAnswer.bind(this)
+        this.gogoShuff = this.gogoShuff.bind(this)
     }
 
     goodAnswer() {
@@ -33,16 +34,20 @@ class Question extends React.Component {
         return `Quel(le) ${trad[a]} a pour ${trad[q]}:`
     }
 
+    gogoShuff(xx) {
+        return xx.map(x => [x, Math.random()]).sort((a, b) => a[1] - b[1]).map(x => x[0])
+    };
+
     render() {
 
         var type_question = this.props.type_question;
         var questionTypes = String(type_question[0]).split('-');
         var answerTypes = String(type_question[1]).split('-');
 
-        var questionType = [...questionTypes].sort(() => 0.5 - Math.random()).slice(0, 1)[0];
-        var answerType = answerTypes.filter(typ => typ !== questionType).sort(() => 0.5 - Math.random()).slice(0.1)[0];
+        var questionType = this.gogoShuff([...questionTypes]).slice(0, 1)[0];
+        var answerType = this.gogoShuff(answerTypes.filter(typ => typ !== questionType)).slice(0.1)[0];
 
-        var choices = this.props.choice ? this.props.choice.concat(this.props.answer).sort(() => 0.5 - Math.random()) : [];
+        var choices = this.props.choice ? this.gogoShuff(this.props.choice.concat(this.props.answer)) : [];
         // this.props.answer[questionType].slice(0, -2) 
         // div[answerType].slice(0, -2)
 
