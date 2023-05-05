@@ -15,6 +15,7 @@ class Question extends React.Component {
     goodAnswer() {
         this.props.handleGoodAnswer()
 
+
     }
     wrongAnswer() {
         this.props.handleWrongAnswer();
@@ -44,7 +45,8 @@ class Question extends React.Component {
         // this.props.answer[questionType].slice(0, -2) 
         // div[answerType].slice(0, -2)
 
-        return <div >
+
+        return <div>
             <p>{this.handleTitle(questionType, answerType)}</p>
             <div className={questionType}>{this.props.answer ? (questionType !== "flag" ? this.props.answer[questionType] : <img src={require("../images/flag/" + this.props.answer[questionType].slice(-2) + ".png")} alt="drapeau" />) : "Wait"}</div>
             <div className={[answerType, "TEST"].join(' ')} onClick={this.props.handleAnwser}>

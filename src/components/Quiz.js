@@ -5,6 +5,7 @@ import Final from './Final';
 import CountryDescription from './CountryDescription';
 import Timer from './Timer';
 
+
 class Quiz extends React.Component {
 
     constructor(props) {
@@ -24,6 +25,7 @@ class Quiz extends React.Component {
         this.handleGoodAnswer = this.handleGoodAnswer.bind(this);
         this.handleWrongAnswer = this.handleWrongAnswer.bind(this);
         this.saveTime = this.saveTime.bind(this);
+        this.updateRecord = this.updateRecord.bind(this)
     }
 
     sortCountry(arr, answer) {
@@ -33,7 +35,7 @@ class Quiz extends React.Component {
     componentDidMount() {
 
 
-
+        console.log(this.props)
         axios
             // Get our quiz options
             .get('http://localhost:8000/quiz/')
@@ -99,10 +101,10 @@ class Quiz extends React.Component {
     convertTime(time) {
 
         var mili = time % 100;
-        var nbrSeconds = Math.round(time / 100);
+        var nbrSeconds = Math.floor(time / 100);
 
 
-        var minutes = Math.round(nbrSeconds / 60);
+        var minutes = Math.floor(nbrSeconds / 60);
         var seconds = nbrSeconds % 60;
         if (String(minutes).length === 1) {
             if (String(seconds).length === 1) {
@@ -121,7 +123,12 @@ class Quiz extends React.Component {
 
     }
 
+    updateRecord(record) {
+        this.setState({ records: this.state.records.concat(record) })
+    }
+
     render() {
+
 
         //const continents = this.state.quiz.continents;
         //const difficulty = this.state.quiz.difficulty;
@@ -132,6 +139,7 @@ class Quiz extends React.Component {
         const name = this.state.quiz.name;
         var pay = this.state.choices && this.state.currQuestion ? this.state.answers[this.state.currQuestion - 2] : "Wait";
         var records = this.state.records ? this.state.records : "No record yet";
+
         records.sort((a, b) => {
             return a.points === b.points ? Number(a.time) - Number(b.time) : b.points - a.points;
         })
@@ -158,15 +166,15 @@ class Quiz extends React.Component {
         return <div>
 
             <h1>{name}</h1>
-            <Timer active={this.state.currQuestion <= this.state.choices.length} saveTime={this.saveTime} />
+            {this.state.currQuestion <= this.state.choices.length ? <Timer active={this.state.currQuestion <= this.state.choices.length} saveTime={this.saveTime} /> : ""}
 
             <h2>{this.state.currQuestion <= this.state.choices.length ? this.state.currQuestion + "/" + this.state.choices.length : ""}</h2>
             <>
 
                 {this.state.currQuestion <= this.state.choices.length ?
                     <Question type_question={type_question} handleWrongAnswer={this.handleWrongAnswer} handleGoodAnswer={this.handleGoodAnswer} handleAnwser={this.state.currQuestion <= this.state.choices.length ? this.handleAnwser : ""} choice={this.state.choices[this.state.currQuestion - 1]} answer={this.state.answers[this.state.currQuestion - 1]} /> :
-                    <>{this.state.time ? <Final goodanswer={this.state.goodanswer} nbrQuestions={this.state.choices.length} time={this.state.time} /> : "Wait"}
-                        {this.state.time ? <div><div>{this.state.time} </div> <div>{this.convertTime(this.state.time)}</div></div> : "Wait"}
+                    <>{this.state.time ? <Final updateRecord={this.updateRecord} goodanswer={this.state.goodanswer} nbrQuestions={this.state.choices.length} time={this.state.time} /> : "Wait"}
+                        {this.state.time ? <div>{this.convertTime(this.state.time)}</div> : "Wait"}
                         {recordTable}</>}
                 <div className={this.state.good ? "green" : "red"}>{pay && 2 <= this.state.currQuestion && this.state.currQuestion <= this.state.choices.length ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>
             </>

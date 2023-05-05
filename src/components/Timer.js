@@ -1,25 +1,24 @@
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 function Timer({ active, saveTime }) {
-    var [timer, setTime] = useState(0);
-    var [interval, setThisInterval] = useState(null);
+    const [timer, setTime] = useState(0);
+    const startRef = useRef();
 
     useEffect(() => {
-        console.log("active", active)
-
         if (active) {
-            console.log('ici')
-            setThisInterval(setInterval(() => {
-                setTime((time) => time + 100)
-            }, 100))
+            startRef.current = performance.now().toFixed(3);
 
-        } else {
+            const intervalId = setInterval(() => {
+                const elapsed = performance.now().toFixed(3) - startRef.current;
+                setTime(Math.round(elapsed));
+            }, 10);
 
-            clearInterval(interval)
-            saveTime(Math.round(timer / 10))
-
+            return () => {
+                clearInterval(intervalId);
+                const elapsed = performance.now().toFixed(3) - startRef.current;
+                saveTime(Math.round(elapsed / 10));
+            };
         }
-
     }, [active]);
 
     return (

@@ -8,8 +8,8 @@ import {
 } from "react-router-dom";
 
 
-import Menu from './components/Menu';
-import Quiz from './components/Quiz';
+import Quiz2 from './components/Quiz2';
+import Menu2 from './components/Menu2';
 
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/home" element={<Menu />} />
-          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/home" element={<Menu2 />} />
+          <Route path="/quiz/:id" element={<Quiz2 />} />
           <Route path="/" element={<Navigate replace to="/home" />} />
         </Routes>
       </Router>
