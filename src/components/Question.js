@@ -26,7 +26,8 @@ class Question extends React.Component {
         var trad = {
             "flag": "drapeau",
             "name": "pays",
-            "capitale": "capitale"
+            "capitale": "capitale",
+            "shape": "forme"
         };
 
         return `Quel(le) ${trad[a]} a pour ${trad[q]}:`
@@ -48,10 +49,17 @@ class Question extends React.Component {
 
         return <div>
             <p>{this.handleTitle(questionType, answerType)}</p>
-            <div className={questionType}>{this.props.answer ? (questionType !== "flag" ? this.props.answer[questionType] : <img src={require("../images/flag/" + this.props.answer[questionType].slice(-2) + ".png")} alt="drapeau" />) : "Wait"}</div>
+            <div className={questionType}>
+                {this.props.answer ?
+                    (questionType === "flag" ? <img src={require("../images/flag/" + this.props.answer[questionType].slice(-2) + ".png")} alt="drapeau" /> :
+                        (questionType === "shape" ? <img src={require("../images/shape/" + this.props.answer["continent"] + "/" + this.props.answer["pk"].toLowerCase() + "/80.png")} alt="shape" /> : this.props.answer[questionType])) :
+                    "Wait"}
+            </div>
             <div className={[answerType, "TEST"].join(' ')} onClick={this.props.handleAnwser}>
                 {choices ? choices.map((div, i) => {
-                    return <div key={i} onClick={this.props.answer ? (div === this.props.answer ? this.goodAnswer : this.wrongAnswer) : ""}>{answerType !== "flag" ? div[answerType] : <img src={require("../images/flag/" + div[answerType].slice(-2) + ".png")} alt="drapeau" />}</div>
+                    return <div key={i} onClick={this.props.answer ? (div === this.props.answer ? this.goodAnswer : this.wrongAnswer) : ""}>
+                        {answerType === "flag" ? <img src={require("../images/flag/" + div[answerType].slice(-2) + ".png")} alt="drapeau" /> :
+                            (answerType === "shape" ? <img src={require("../images/shape/" + div["continent"] + "/" + div["pk"].toLowerCase() + "/80.png")} alt="shape" /> : div[answerType])}</div>
                 }) : 'Wait'}
             </div>
 
