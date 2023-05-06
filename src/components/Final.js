@@ -1,13 +1,14 @@
 import axios from 'axios';
 import { useState } from 'react';
 
-function Final({ updateRecord, goodanswer, nbrQuestions, time, id }) {
+function Final({ updateRecord, goodanswer, nbrQuestions, time, id, handleAnwser }) {
 
     const [user, setUser] = useState("");
     const [send, setSend] = useState(false);
     const [sent, setSent] = useState(false);
     const setUp = () => {
         setSend(true);
+        handleAnwser();
 
     }
 

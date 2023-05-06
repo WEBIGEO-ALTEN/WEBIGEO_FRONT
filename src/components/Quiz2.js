@@ -134,10 +134,10 @@ function Quiz2() {
 
                 {currQuestion <= choices.length ?
                     <Question type_question={type_question} handleWrongAnswer={handleWrongAnswer} handleGoodAnswer={handleGoodAnswer} handleAnwser={currQuestion <= choices.length ? handleAnwser : ""} choice={choices[currQuestion - 1]} answer={answers[currQuestion - 1]} /> :
-                    <>{time ? <Final updateRecord={updateRecord} goodanswer={goodanswer} nbrQuestions={choices.length} time={time} id={id} /> : "Wait"}
+                    <>{time ? <Final updateRecord={updateRecord} goodanswer={goodanswer} nbrQuestions={choices.length} time={time} id={id} handleAnwser={handleAnwser} /> : "Wait"}
                         {time ? <div>{convertTime(time)}</div> : "Wait"}
                         {recordTable}</>}
-                <div className={good ? "green" : "red"}>{pay && 2 <= currQuestion && currQuestion <= choices.length ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>
+                <div className={good ? "green" : "red"}>{pay && 2 <= currQuestion && currQuestion <= choices.length + 1 ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>
             </>
 
         </div>
