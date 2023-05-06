@@ -3,6 +3,7 @@ import axios from "axios";
 import CountryDescription from "./CountryDescription";
 import Timer from "./Timer";
 import Question from "./Question";
+import Header from "./Header";
 import Final from "./Final";
 import { useParams } from "react-router-dom";
 
@@ -34,6 +35,7 @@ function Quiz2() {
     }, [id])
 
     useEffect(() => {
+
         axios.get('http://localhost:8000/country/?continent=' + quiz.continents)
             .then(res => {
                 setCountries(res.data)
@@ -124,11 +126,11 @@ function Quiz2() {
         </tbody>
     </table>
     return (
-        <div>
-
-            <h1>{name}</h1>
-            {currQuestion <= choices.length ? <Timer active={currQuestion <= choices.length} saveTime={saveTime} /> : ""}
-
+        <div className="container h-75 d-flex flex-column justify-content-between align-items-center">
+            <div className="row"><Header /></div>
+            <div className="row">
+                {currQuestion <= choices.length ? <Timer active={currQuestion <= choices.length} saveTime={saveTime} /> : ""}
+            </div>
             <h2>{currQuestion <= choices.length ? currQuestion + "/" + choices.length : ""}</h2>
             <>
 
@@ -137,7 +139,7 @@ function Quiz2() {
                     <>{time ? <Final updateRecord={updateRecord} goodanswer={goodanswer} nbrQuestions={choices.length} time={time} id={id} handleAnwser={handleAnwser} /> : "Wait"}
                         {time ? <div>{convertTime(time)}</div> : "Wait"}
                         {recordTable}</>}
-                <div className={good ? "green" : "red"}>{pay && 2 <= currQuestion && currQuestion <= choices.length + 1 ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>
+                <div className={good ? "green fixed-bottom d-flex justify-content-center" : "red fixed-bottom d-flex justify-content-center"}>{pay && 2 <= currQuestion && currQuestion <= choices.length + 1 ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>
             </>
 
         </div>
