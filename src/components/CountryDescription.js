@@ -18,7 +18,7 @@ class CountryDescription extends React.Component {
                 <img className="border border-white" src={require("../images/flag/" + this.props.iso.toLowerCase() + ".png")} alt={this.props.iso} />
                 <img className="m-2" src={require("../images/shape/" + this.props.shape.split('/')[3] + "/" + this.props.iso.toLowerCase() + "/80.png")} alt={this.props.iso} />
             </div>
-            <p>La capitale de {this.props.name} est {this.props.cap}.</p>
+            <p>Capitale: {this.props.cap}.</p>
         </div>
     }
 

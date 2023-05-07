@@ -14,10 +14,11 @@ function Final({ updateRecord, goodanswer, nbrQuestions, time, id, handleAnwser 
 
     const handleChange = (e) => {
         setUser(e.target.value);
+        console.log(user)
     }
 
     const handleRecord = (user) => {
-        console.log('envoi')
+        console.log(user === "")
         const data = {
             "time": time,
             "user": user,
@@ -26,7 +27,9 @@ function Final({ updateRecord, goodanswer, nbrQuestions, time, id, handleAnwser 
             "points": goodanswer
 
         };
-        axios.post('http://localhost:8000/record/', data)
+        if (user !== "") {
+            axios.post('http://localhost:8000/record/', data)
+        }
         setSent(true);
         updateRecord(data)
     }
@@ -53,7 +56,7 @@ function Final({ updateRecord, goodanswer, nbrQuestions, time, id, handleAnwser 
 
     return <div>
 
-        <div>Resultat:</div>
+        <div>RESULTAT:</div>
         <div>{goodanswer + "/" + nbrQuestions}</div>
         {time ? <div>{convertTime(time)}</div> : "Wait"}
         {!send ? <button type='button' className='btn btn-secondary' onClick={setUp}>Enregistrer le résultat</button> : !sent ? <div>

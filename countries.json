@@ -1,0 +1,1753 @@
+{
+    "AF": {
+        "name": "Afghanistan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\af\\24.png",
+        "cap": "Kaboul",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\af.png"
+    },
+    "AX": {
+        "name": "\u00celes \u00c5land",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\ax\\24.png",
+        "cap": "Mariehamn",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ax.png"
+    },
+    "AL": {
+        "name": "Albanie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\al\\24.png",
+        "cap": "Tirana",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\al.png"
+    },
+    "DZ": {
+        "name": "Alg\u00e9rie",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\dz\\24.png",
+        "cap": "Alger",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\dz.png"
+    },
+    "AS": {
+        "name": "Samoa am\u00e9ricaines",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\as\\24.png",
+        "cap": "Pago Pago",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\as.png"
+    },
+    "AD": {
+        "name": "Andorre",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\ad\\24.png",
+        "cap": "Andorre-la-Vieille",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ad.png"
+    },
+    "AO": {
+        "name": "Angola",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ao\\24.png",
+        "cap": "Luanda",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ao.png"
+    },
+    "AI": {
+        "name": "Anguilla",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\ai\\24.png",
+        "cap": "La Vall\u00e9e",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ai.png"
+    },
+    "AG": {
+        "name": "Antigua-et-Barbuda",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\ag\\24.png",
+        "cap": {
+            "cap": "Saint John's"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ag.png"
+    },
+    "AR": {
+        "name": "Argentine",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\ar\\24.png",
+        "cap": "Buenos Aires",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ar.png"
+    },
+    "AM": {
+        "name": "Arm\u00e9nie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\am\\24.png",
+        "cap": "Erevan",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\am.png"
+    },
+    "AW": {
+        "name": "Aruba",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\aw\\24.png",
+        "cap": "Oranjestad",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\aw.png"
+    },
+    "AU": {
+        "name": "Australie",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\au\\24.png",
+        "cap": "Canberra",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\au.png"
+    },
+    "AT": {
+        "name": "Autriche",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\at\\24.png",
+        "cap": "Vienne",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\at.png"
+    },
+    "AZ": {
+        "name": "Azerba\u00efdjan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\az\\24.png",
+        "cap": "Bakou",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\az.png"
+    },
+    "BS": {
+        "name": "Bahamas",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\bs\\24.png",
+        "cap": "Nassau",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bs.png"
+    },
+    "BH": {
+        "name": "Bahre\u00efn",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\bh\\24.png",
+        "cap": "Manama",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bh.png"
+    },
+    "BD": {
+        "name": "Bangladesh",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\bd\\24.png",
+        "cap": "Dhaka",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bd.png"
+    },
+    "BB": {
+        "name": "Barbade",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\bb\\24.png",
+        "cap": "Bridgetown",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bb.png"
+    },
+    "BY": {
+        "name": "Bi\u00e9lorussie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\by\\24.png",
+        "cap": "Minsk",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\by.png"
+    },
+    "BE": {
+        "name": "Belgique",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\be\\24.png",
+        "cap": "Bruxelles",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\be.png"
+    },
+    "BZ": {
+        "name": "Belize",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\bz\\24.png",
+        "cap": "Belmopan",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bz.png"
+    },
+    "BJ": {
+        "name": "B\u00e9nin",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\bj\\24.png",
+        "cap": "Porto-Novo",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bj.png"
+    },
+    "BM": {
+        "name": "Bermudes",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\bm\\24.png",
+        "cap": "Hamilton",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bm.png"
+    },
+    "BT": {
+        "name": "Bhoutan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\bt\\24.png",
+        "cap": "Thimphu",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bt.png"
+    },
+    "BO": {
+        "name": "Bolivie",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\bo\\24.png",
+        "cap": "Sucre",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bo.png"
+    },
+    "BA": {
+        "name": "Bosnie-Herz\u00e9govine",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\ba\\24.png",
+        "cap": {
+            "cap": "Sarajevo"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ba.png"
+    },
+    "BW": {
+        "name": "Botswana",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\bw\\24.png",
+        "cap": "Gaborone",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bw.png"
+    },
+    "BR": {
+        "name": "Br\u00e9sil",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\br\\24.png",
+        "cap": "Brasilia",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\br.png"
+    },
+    "VG": {
+        "name": "British Virgin Islands",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\vg\\24.png",
+        "cap": {
+            "cap": "Road Town"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\vg.png"
+    },
+    "BN": {
+        "name": "Brunei Darussalam",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\bn\\24.png",
+        "cap": {
+            "cap": "Bandar Seri Begawan"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bn.png"
+    },
+    "BG": {
+        "name": "Bulgarie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\bg\\24.png",
+        "cap": "Sofia",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bg.png"
+    },
+    "BF": {
+        "name": "Burkina Faso",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\bf\\24.png",
+        "cap": "Ouagadougou",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bf.png"
+    },
+    "BI": {
+        "name": "Burundi",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\bi\\24.png",
+        "cap": "Bujumbura",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bi.png"
+    },
+    "KH": {
+        "name": "Cambodge",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\kh\\24.png",
+        "cap": "Phnom Penh",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\kh.png"
+    },
+    "CM": {
+        "name": "Cameroun",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\cm\\24.png",
+        "cap": "Yaound\u00e9",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cm.png"
+    },
+    "CA": {
+        "name": "Canada",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\ca\\24.png",
+        "cap": "Ottawa",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ca.png"
+    },
+    "CV": {
+        "name": "Cap-Vert",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\cv\\24.png",
+        "cap": "Praia",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cv.png"
+    },
+    "KY": {
+        "name": "Iles Cayman",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\ky\\24.png",
+        "cap": {
+            "cap": "George Town"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ky.png"
+    },
+    "CF": {
+        "name": "R\u00e9publique centrafricaine",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\cf\\24.png",
+        "cap": "Bangui",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cf.png"
+    },
+    "TD": {
+        "name": "Tchad",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\td\\24.png",
+        "cap": "N'Djamena",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\td.png"
+    },
+    "CL": {
+        "name": "Chili",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\cl\\24.png",
+        "cap": "Santiago",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cl.png"
+    },
+    "CN": {
+        "name": "Chine",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\cn\\24.png",
+        "cap": "P\u00e9kin",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cn.png"
+    },
+    "HK": {
+        "name": "Hong Kong",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\hk\\24.png",
+        "cap": "Hong Kong",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\hk.png"
+    },
+    "MO": {
+        "name": "Macao",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\mo\\24.png",
+        "cap": "Conseil de Macao",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mo.png"
+    },
+    "CX": {
+        "name": "\u00cele Christmas",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\cx\\24.png",
+        "cap": {
+            "cap": "Baie des poissons volants"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cx.png"
+    },
+    "CC": {
+        "name": "\u00celes Cocos",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\cc\\24.png",
+        "cap": "\u00cele de l'Ouest",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cc.png"
+    },
+    "CO": {
+        "name": "Colombie",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\co\\24.png",
+        "cap": "Bogota",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\co.png"
+    },
+    "KM": {
+        "name": "Comores",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\km\\24.png",
+        "cap": "Moroni",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\km.png"
+    },
+    "CG": {
+        "name": "R\u00e9publique du Congo",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\cg\\24.png",
+        "cap": "Brazzaville",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cg.png"
+    },
+    "CD": {
+        "name": "R\u00e9publique d\u00e9mocratique du Congo",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\cd\\24.png",
+        "cap": "Kinshasa",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cd.png"
+    },
+    "CK": {
+        "name": "\u00celes Cook",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\ck\\24.png",
+        "cap": "Avarua",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ck.png"
+    },
+    "CR": {
+        "name": "Costa Rica",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\cr\\24.png",
+        "cap": "San Jos\u00e9",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cr.png"
+    },
+    "CI": {
+        "name": "C\u00f4te d\u2019Ivoire",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ci\\24.png",
+        "cap": {
+            "cap": "Yamoussoukro"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ci.png"
+    },
+    "HR": {
+        "name": "Croatie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\hr\\24.png",
+        "cap": "Zagreb",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\hr.png"
+    },
+    "CU": {
+        "name": "Cuba",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\cu\\24.png",
+        "cap": "La Havane",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cu.png"
+    },
+    "CY": {
+        "name": "Chypre",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\cy\\24.png",
+        "cap": "Nicosie",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cy.png"
+    },
+    "CZ": {
+        "name": "R\u00e9publique tch\u00e8que",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\cz\\24.png",
+        "cap": {
+            "cap": "Prague"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cz.png"
+    },
+    "DK": {
+        "name": "Danemark",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\dk\\24.png",
+        "cap": "Copenhague",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\dk.png"
+    },
+    "DJ": {
+        "name": "Djibouti",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\dj\\24.png",
+        "cap": "Djibouti",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\dj.png"
+    },
+    "DM": {
+        "name": "Dominique",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\dm\\24.png",
+        "cap": "Roseau",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\dm.png"
+    },
+    "DO": {
+        "name": "R\u00e9publique dominicaine",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\do\\24.png",
+        "cap": "Saint-Domingue",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\do.png"
+    },
+    "EC": {
+        "name": "\u00c9quateur",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\ec\\24.png",
+        "cap": "Quito",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ec.png"
+    },
+    "EG": {
+        "name": "\u00c9gypte",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\eg\\24.png",
+        "cap": "Le Caire",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\eg.png"
+    },
+    "SV": {
+        "name": "Salvador",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\sv\\24.png",
+        "cap": "San Salvador",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sv.png"
+    },
+    "GQ": {
+        "name": "Guin\u00e9e \u00e9quatoriale",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\gq\\24.png",
+        "cap": "Malabo",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gq.png"
+    },
+    "ER": {
+        "name": "\u00c9rythr\u00e9e",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\er\\24.png",
+        "cap": "Asmara",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\er.png"
+    },
+    "EE": {
+        "name": "Estonie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\ee\\24.png",
+        "cap": "Tallinn",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ee.png"
+    },
+    "ET": {
+        "name": "\u00c9thiopie",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\et\\24.png",
+        "cap": "Addis Abeba",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\et.png"
+    },
+    "FK": {
+        "name": "\u00celes Falkland",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\fk\\24.png",
+        "cap": "Stanley",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\fk.png"
+    },
+    "FO": {
+        "name": "\u00celes F\u00e9ro\u00e9",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\fo\\24.png",
+        "cap": "Thorshaven",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\fo.png"
+    },
+    "FJ": {
+        "name": "Fidji",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\fj\\24.png",
+        "cap": "Suva",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\fj.png"
+    },
+    "FI": {
+        "name": "Finlande",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\fi\\24.png",
+        "cap": "Helsinki",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\fi.png"
+    },
+    "FR": {
+        "name": "France",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\fr\\24.png",
+        "cap": "Paris",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\fr.png"
+    },
+    "GF": {
+        "name": "Guyane fran\u00e7aise",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\gf\\24.png",
+        "cap": "Cayenne",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gf.png"
+    },
+    "PF": {
+        "name": "Polyn\u00e9sie fran\u00e7aise",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\pf\\24.png",
+        "cap": "Papeete",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pf.png"
+    },
+    "GA": {
+        "name": "Gabon",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ga\\24.png",
+        "cap": "Libreville",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ga.png"
+    },
+    "GM": {
+        "name": "Gambie",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\gm\\24.png",
+        "cap": "Banjul",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gm.png"
+    },
+    "GE": {
+        "name": "G\u00e9orgie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\ge\\24.png",
+        "cap": "Tiflis",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ge.png"
+    },
+    "DE": {
+        "name": "Allemagne",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\de\\24.png",
+        "cap": "Berlin",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\de.png"
+    },
+    "GH": {
+        "name": "Ghana",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\gh\\24.png",
+        "cap": "Accra",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gh.png"
+    },
+    "GI": {
+        "name": "Gibraltar",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\gi\\24.png",
+        "cap": "Gibraltar",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gi.png"
+    },
+    "GR": {
+        "name": "Gr\u00e8ce",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\gr\\24.png",
+        "cap": "Ath\u00e8nes",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gr.png"
+    },
+    "GL": {
+        "name": "Groenland",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\gl\\24.png",
+        "cap": "Nuuk",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gl.png"
+    },
+    "GD": {
+        "name": "Grenade",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\gd\\24.png",
+        "cap": "Saint George's",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gd.png"
+    },
+    "GP": {
+        "name": "Guadeloupe",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\gp\\24.png",
+        "cap": "Basse-Terre",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gp.png"
+    },
+    "GU": {
+        "name": "Guam",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\gu\\24.png",
+        "cap": "Hag\u00e5t\u00f1a",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gu.png"
+    },
+    "GT": {
+        "name": "Guatemala",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\gt\\24.png",
+        "cap": "Guatemala-Ville",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gt.png"
+    },
+    "GG": {
+        "name": "Guernesey",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\gg\\24.png",
+        "cap": "Port de Saint-Pierre",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gg.png"
+    },
+    "GN": {
+        "name": "Guin\u00e9e",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\gn\\24.png",
+        "cap": "Conakry",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gn.png"
+    },
+    "GW": {
+        "name": "Guin\u00e9e-Bissau",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\gw\\24.png",
+        "cap": "Bissau",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gw.png"
+    },
+    "GY": {
+        "name": "Guyane",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\gy\\24.png",
+        "cap": {
+            "cap": "Georgetown"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gy.png"
+    },
+    "HT": {
+        "name": "Ha\u00efti",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\ht\\24.png",
+        "cap": "Port-au-Prince",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ht.png"
+    },
+    "VA": {
+        "name": "Saint-Si\u00e8ge (Vatican)",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\va\\24.png",
+        "cap": {
+            "cap": "Cit\u00e9 du Vatican"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\va.png"
+    },
+    "HN": {
+        "name": "Honduras",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\hn\\24.png",
+        "cap": "Tegucigalpa",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\hn.png"
+    },
+    "HU": {
+        "name": "Hongrie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\hu\\24.png",
+        "cap": "Budapest",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\hu.png"
+    },
+    "IS": {
+        "name": "Islande",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\is\\24.png",
+        "cap": "Reykjav\u00edk",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\is.png"
+    },
+    "IN": {
+        "name": "Inde",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\in\\24.png",
+        "cap": "New Delhi",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\in.png"
+    },
+    "ID": {
+        "name": "Indon\u00e9sie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\id\\24.png",
+        "cap": "Jakarta",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\id.png"
+    },
+    "IR": {
+        "name": "Iran",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\ir\\24.png",
+        "cap": "T\u00e9h\u00e9ran",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ir.png"
+    },
+    "IQ": {
+        "name": "Irak",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\iq\\24.png",
+        "cap": "Bagdad",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\iq.png"
+    },
+    "IE": {
+        "name": "Irlande",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\ie\\24.png",
+        "cap": "Dublin",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ie.png"
+    },
+    "IM": {
+        "name": "Ile de Man",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\im\\24.png",
+        "cap": {
+            "cap": "Douglas"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\im.png"
+    },
+    "IL": {
+        "name": "Isra\u00ebl",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\il\\24.png",
+        "cap": "J\u00e9rusalem",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\il.png"
+    },
+    "IT": {
+        "name": "Italie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\it\\24.png",
+        "cap": "Rome",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\it.png"
+    },
+    "JM": {
+        "name": "Jama\u00efque",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\jm\\24.png",
+        "cap": "Kingston",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\jm.png"
+    },
+    "JP": {
+        "name": "Japon",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\jp\\24.png",
+        "cap": "Tokyo",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\jp.png"
+    },
+    "JE": {
+        "name": "Jersey",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\None\\je\\24.png",
+        "cap": "Saint Helier",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\je.png"
+    },
+    "JO": {
+        "name": "Jordanie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\jo\\24.png",
+        "cap": "Amman",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\jo.png"
+    },
+    "KZ": {
+        "name": "Kazakhstan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\kz\\24.png",
+        "cap": "Nursultan",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\kz.png"
+    },
+    "KE": {
+        "name": "Kenya",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ke\\24.png",
+        "cap": "Nairobi",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ke.png"
+    },
+    "KI": {
+        "name": "Kiribati",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\ki\\24.png",
+        "cap": "Tarawa",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ki.png"
+    },
+    "KP": {
+        "name": "Cor\u00e9e du Nord",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\kp\\24.png",
+        "cap": "Pyongyang",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\kp.png"
+    },
+    "KR": {
+        "name": "Cor\u00e9e du Sud",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\kr\\24.png",
+        "cap": "S\u00e9oul",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\kr.png"
+    },
+    "KW": {
+        "name": "Kowe\u00eft",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\kw\\24.png",
+        "cap": "Ville de Kowe\u00eft",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\kw.png"
+    },
+    "KG": {
+        "name": "Kirghizistan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\kg\\24.png",
+        "cap": "Bichkek",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\kg.png"
+    },
+    "LA": {
+        "name": "Laos",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\la\\24.png",
+        "cap": "Vientiane",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\la.png"
+    },
+    "LV": {
+        "name": "Lettonie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\lv\\24.png",
+        "cap": "Riga",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\lv.png"
+    },
+    "LB": {
+        "name": "Liban",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\lb\\24.png",
+        "cap": "Beyrouth",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\lb.png"
+    },
+    "LS": {
+        "name": "Lesotho",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ls\\24.png",
+        "cap": "Maseru",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ls.png"
+    },
+    "LR": {
+        "name": "Lib\u00e9ria",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\lr\\24.png",
+        "cap": "Monrovia",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\lr.png"
+    },
+    "LY": {
+        "name": "Libye",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ly\\24.png",
+        "cap": "Tripoli",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ly.png"
+    },
+    "LI": {
+        "name": "Liechtenstein",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\li\\24.png",
+        "cap": "Vaduz",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\li.png"
+    },
+    "LT": {
+        "name": "Lituanie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\lt\\24.png",
+        "cap": "Vilnius",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\lt.png"
+    },
+    "LU": {
+        "name": "Luxembourg",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\lu\\24.png",
+        "cap": "Luxembourg",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\lu.png"
+    },
+    "MK": {
+        "name": "Mac\u00e9doine",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\mk\\24.png",
+        "cap": {
+            "cap": "Skopje"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mk.png"
+    },
+    "MG": {
+        "name": "Madagascar",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\mg\\24.png",
+        "cap": "Antananarivo",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mg.png"
+    },
+    "MW": {
+        "name": "Malawi",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\mw\\24.png",
+        "cap": "Lilongwe",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mw.png"
+    },
+    "MY": {
+        "name": "Malaisie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\my\\24.png",
+        "cap": "Kuala Lumpur",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\my.png"
+    },
+    "MV": {
+        "name": "Maldives",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\mv\\24.png",
+        "cap": "Mal\u00e9",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mv.png"
+    },
+    "ML": {
+        "name": "Mali",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ml\\24.png",
+        "cap": "Bamako",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ml.png"
+    },
+    "MT": {
+        "name": "Malte",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\mt\\24.png",
+        "cap": "La Valette",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mt.png"
+    },
+    "MH": {
+        "name": "\u00celes Marshall",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\None\\mh\\24.png",
+        "cap": "Majuro",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mh.png"
+    },
+    "MQ": {
+        "name": "Martinique",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\mq\\24.png",
+        "cap": "Fort-de-France",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mq.png"
+    },
+    "MR": {
+        "name": "Mauritanie",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\mr\\24.png",
+        "cap": "Nouakchott",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mr.png"
+    },
+    "MU": {
+        "name": "Maurice",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\mu\\24.png",
+        "cap": "Port Louis",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mu.png"
+    },
+    "YT": {
+        "name": "Mayotte",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\yt\\24.png",
+        "cap": "Mamoudzou",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\yt.png"
+    },
+    "MX": {
+        "name": "Mexique",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\mx\\24.png",
+        "cap": "Mexico City",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mx.png"
+    },
+    "FM": {
+        "name": "Micron\u00e9sie",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\None\\fm\\24.png",
+        "cap": "Palikir",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\fm.png"
+    },
+    "MD": {
+        "name": "Moldavie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\md\\24.png",
+        "cap": "Chisinau",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\md.png"
+    },
+    "MC": {
+        "name": "Monaco",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\mc\\24.png",
+        "cap": {
+            "cap": "Monaco"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mc.png"
+    },
+    "MN": {
+        "name": "Mongolie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\mn\\24.png",
+        "cap": "Ulaanbaatar",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mn.png"
+    },
+    "ME": {
+        "name": "Mont\u00e9n\u00e9gro",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\me\\24.png",
+        "cap": "Podgorica",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\me.png"
+    },
+    "MS": {
+        "name": "Montserrat",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\ms\\24.png",
+        "cap": "Brades",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ms.png"
+    },
+    "MA": {
+        "name": "Maroc",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ma\\24.png",
+        "cap": "Rabat",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ma.png"
+    },
+    "MZ": {
+        "name": "Mozambique",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\mz\\24.png",
+        "cap": "Maputo",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mz.png"
+    },
+    "MM": {
+        "name": "Myanmar",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\mm\\24.png",
+        "cap": "Nay Pyi Taw",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mm.png"
+    },
+    "NA": {
+        "name": "Namibie",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\na\\24.png",
+        "cap": "Windhoek",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\na.png"
+    },
+    "NR": {
+        "name": "Nauru",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\nr\\24.png",
+        "cap": "Yaren",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\nr.png"
+    },
+    "NP": {
+        "name": "N\u00e9pal",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\np\\24.png",
+        "cap": "Katmandou",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\np.png"
+    },
+    "NL": {
+        "name": "Pays-Bas",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\nl\\24.png",
+        "cap": "Amsterdam",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\nl.png"
+    },
+    "NC": {
+        "name": "Nouvelle-Cal\u00e9donie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\nc\\24.png",
+        "cap": "Noum\u00e9a",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\nc.png"
+    },
+    "NZ": {
+        "name": "Nouvelle-Z\u00e9lande",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\nz\\24.png",
+        "cap": "Wellington",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\nz.png"
+    },
+    "NI": {
+        "name": "Nicaragua",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\ni\\24.png",
+        "cap": "Managua",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ni.png"
+    },
+    "NE": {
+        "name": "Niger",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ne\\24.png",
+        "cap": "Niamey",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ne.png"
+    },
+    "NG": {
+        "name": "Nigeria",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ng\\24.png",
+        "cap": "Abuja",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ng.png"
+    },
+    "NU": {
+        "name": "Niue",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\nu\\24.png",
+        "cap": "Alofi",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\nu.png"
+    },
+    "NF": {
+        "name": "\u00cele Norfolk",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\nf\\24.png",
+        "cap": {
+            "cap": "Kingston"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\nf.png"
+    },
+    "MP": {
+        "name": "\u00celes Mariannes du Nord",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\None\\mp\\24.png",
+        "cap": {
+            "cap": "Saipan"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mp.png"
+    },
+    "NO": {
+        "name": "Norv\u00e8ge",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\no\\24.png",
+        "cap": "Oslo",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\no.png"
+    },
+    "OM": {
+        "name": "Oman",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\om\\24.png",
+        "cap": "Muscat",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\om.png"
+    },
+    "PK": {
+        "name": "Pakistan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\pk\\24.png",
+        "cap": "Islamabad",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pk.png"
+    },
+    "PW": {
+        "name": "Palau",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\pw\\24.png",
+        "cap": "Melekeok",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pw.png"
+    },
+    "PS": {
+        "name": "Palestine",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\None\\ps\\24.png",
+        "cap": "Ramallah",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ps.png"
+    },
+    "PA": {
+        "name": "Panama",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\pa\\24.png",
+        "cap": "Ville de Panama",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pa.png"
+    },
+    "PG": {
+        "name": "Papouasie-Nouvelle-Guin\u00e9e",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\pg\\24.png",
+        "cap": "Port Moresby",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pg.png"
+    },
+    "PY": {
+        "name": "Paraguay",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\py\\24.png",
+        "cap": "Asunci\u00f3n",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\py.png"
+    },
+    "PE": {
+        "name": "P\u00e9rou",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\pe\\24.png",
+        "cap": "Lima",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pe.png"
+    },
+    "PH": {
+        "name": "Philippines",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\ph\\24.png",
+        "cap": "Manille",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ph.png"
+    },
+    "PN": {
+        "name": "Pitcairn",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\pn\\24.png",
+        "cap": {
+            "cap": "Adamstown"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pn.png"
+    },
+    "PL": {
+        "name": "Pologne",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\pl\\24.png",
+        "cap": "Varsovie",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pl.png"
+    },
+    "PT": {
+        "name": "Portugal",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\pt\\24.png",
+        "cap": "Lisbonne",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pt.png"
+    },
+    "PR": {
+        "name": "Puerto Rico",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\pr\\24.png",
+        "cap": {
+            "cap": "San Juan"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pr.png"
+    },
+    "QA": {
+        "name": "Qatar",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\qa\\24.png",
+        "cap": "Doha",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\qa.png"
+    },
+    "RE": {
+        "name": "R\u00e9union",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\re\\24.png",
+        "cap": "Saint-Denis",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\re.png"
+    },
+    "RO": {
+        "name": "Roumanie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\ro\\24.png",
+        "cap": "Bucarest",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ro.png"
+    },
+    "RU": {
+        "name": "Russie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\ru\\24.png",
+        "cap": "Moscou",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ru.png"
+    },
+    "RW": {
+        "name": "Rwanda",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\rw\\24.png",
+        "cap": "Kigali",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\rw.png"
+    },
+    "BL": {
+        "name": "Saint-Barth\u00e9lemy",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\bl\\24.png",
+        "cap": "Gustavia",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\bl.png"
+    },
+    "SH": {
+        "name": "Sainte-H\u00e9l\u00e8ne",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\sh\\24.png",
+        "cap": {
+            "cap": "Jamestown"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sh.png"
+    },
+    "KN": {
+        "name": "Saint-Kitts-et-Nevis",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\kn\\24.png",
+        "cap": {
+            "cap": "Basseterre"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\kn.png"
+    },
+    "LC": {
+        "name": "Sainte-Lucie",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\lc\\24.png",
+        "cap": "Castries",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\lc.png"
+    },
+    "MF": {
+        "name": "Saint-Martin (partie fran\u00e7aise)",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\mf\\24.png",
+        "cap": {
+            "cap": "Marigot"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\mf.png"
+    },
+    "SX": {
+        "name": "Saint-Martin (partie n\u00e9erlandaise)",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\sx\\24.png",
+        "cap": {
+            "cap": "Philipsburg"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sx.png"
+    },
+    "PM": {
+        "name": "Saint-Pierre-et-Miquelon",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\pm\\24.png",
+        "cap": "Saint-Pierre",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\pm.png"
+    },
+    "VC": {
+        "name": "Saint-Vincent-et-les Grenadines",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\vc\\24.png",
+        "cap": {
+            "cap": "Kingstown"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\vc.png"
+    },
+    "WS": {
+        "name": "Samoa",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\ws\\24.png",
+        "cap": "Apia",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ws.png"
+    },
+    "SM": {
+        "name": "Saint-Marin",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\sm\\24.png",
+        "cap": "Saint-Marin",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sm.png"
+    },
+    "ST": {
+        "name": "Sao Tom\u00e9-et-Principe",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\st\\24.png",
+        "cap": {
+            "cap": "S\u00e3o Tom\u00e9"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\st.png"
+    },
+    "SA": {
+        "name": "Arabie Saoudite",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\sa\\24.png",
+        "cap": {
+            "cap": "Riad"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sa.png"
+    },
+    "SN": {
+        "name": "S\u00e9n\u00e9gal",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\sn\\24.png",
+        "cap": "Dacar",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sn.png"
+    },
+    "RS": {
+        "name": "Serbie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\rs\\24.png",
+        "cap": "Belgrado",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\rs.png"
+    },
+    "SC": {
+        "name": "Seychelles",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\sc\\24.png",
+        "cap": "Victoria",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sc.png"
+    },
+    "SL": {
+        "name": "Sierra Leone",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\sl\\24.png",
+        "cap": "Freetown",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sl.png"
+    },
+    "SG": {
+        "name": "Singapour",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\sg\\24.png",
+        "cap": "Singapour",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sg.png"
+    },
+    "SK": {
+        "name": "Slovaquie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\sk\\24.png",
+        "cap": "Bratislava",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sk.png"
+    },
+    "SI": {
+        "name": "Slov\u00e9nie",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\si\\24.png",
+        "cap": "Ljubljana",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\si.png"
+    },
+    "SB": {
+        "name": "\u00celes Salomon",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\sb\\24.png",
+        "cap": "Honiara",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sb.png"
+    },
+    "SO": {
+        "name": "Somalie",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\so\\24.png",
+        "cap": "Mogadiscio",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\so.png"
+    },
+    "ZA": {
+        "name": "Afrique du Sud",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\za\\24.png",
+        "cap": "Pretoria",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\za.png"
+    },
+    "GS": {
+        "name": "G\u00e9orgie du Sud et les \u00eeles Sandwich du Sud",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\gs\\24.png",
+        "cap": {
+            "cap": "Point du Roi \u00c9douard"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gs.png"
+    },
+    "SS": {
+        "name": "Sud-Soudan",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ss\\24.png",
+        "cap": {
+            "cap": "Juba"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ss.png"
+    },
+    "ES": {
+        "name": "Espagne",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\es\\24.png",
+        "cap": "Madrid",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\es.png"
+    },
+    "LK": {
+        "name": "Sri Lanka",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\lk\\24.png",
+        "cap": "Colombo",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\lk.png"
+    },
+    "SD": {
+        "name": "Soudan",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\sd\\24.png",
+        "cap": "Khartoum",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sd.png"
+    },
+    "SR": {
+        "name": "Suriname",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\sr\\24.png",
+        "cap": "Paramaribo",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sr.png"
+    },
+    "SJ": {
+        "name": "Svalbard et Jan Mayen",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\sj\\24.png",
+        "cap": "Longyearbyen",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sj.png"
+    },
+    "SZ": {
+        "name": "Eswatini",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\sz\\24.png",
+        "cap": "Mbabane",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sz.png"
+    },
+    "SE": {
+        "name": "Su\u00e8de",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\se\\24.png",
+        "cap": "Stockholm",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\se.png"
+    },
+    "CH": {
+        "name": "Suisse",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\ch\\24.png",
+        "cap": "Berne",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ch.png"
+    },
+    "SY": {
+        "name": "Syrie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\sy\\24.png",
+        "cap": "Damas",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\sy.png"
+    },
+    "TW": {
+        "name": "Taiwan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\tw\\24.png",
+        "cap": {
+            "cap": "Taipei"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tw.png"
+    },
+    "TJ": {
+        "name": "Tadjikistan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\tj\\24.png",
+        "cap": "Douchanb\u00e9",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tj.png"
+    },
+    "TZ": {
+        "name": "Tanzanie",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\tz\\24.png",
+        "cap": "Dodoma",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tz.png"
+    },
+    "TH": {
+        "name": "Tha\u00eflande",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\th\\24.png",
+        "cap": "Bangkok",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\th.png"
+    },
+    "TL": {
+        "name": "Timor-Leste",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\tl\\24.png",
+        "cap": {
+            "cap": "Dili"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tl.png"
+    },
+    "TG": {
+        "name": "Togo",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\tg\\24.png",
+        "cap": "Lom\u00e9",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tg.png"
+    },
+    "TO": {
+        "name": "Tonga",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\to\\24.png",
+        "cap": "Nuku'alofa",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\to.png"
+    },
+    "TT": {
+        "name": "Trinit\u00e9-et-Tobago",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\tt\\24.png",
+        "cap": {
+            "cap": "Port-of-Spain"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tt.png"
+    },
+    "TN": {
+        "name": "Tunisie",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\tn\\24.png",
+        "cap": "Tunis",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tn.png"
+    },
+    "TR": {
+        "name": "Turquie",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\tr\\24.png",
+        "cap": "Ankara",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tr.png"
+    },
+    "TM": {
+        "name": "Turkm\u00e9nistan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\tm\\24.png",
+        "cap": "Achgabat",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tm.png"
+    },
+    "TC": {
+        "name": "\u00celes Turques-et-Ca\u00efques",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\tc\\24.png",
+        "cap": {
+            "cap": "Cockburn Town"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tc.png"
+    },
+    "TV": {
+        "name": "Tuvalu",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\None\\tv\\24.png",
+        "cap": "Funafuti",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\tv.png"
+    },
+    "UG": {
+        "name": "Ouganda",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ug\\24.png",
+        "cap": "Kampala",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ug.png"
+    },
+    "UA": {
+        "name": "Ukraine",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\ua\\24.png",
+        "cap": "Kiev",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ua.png"
+    },
+    "AE": {
+        "name": "\u00c9mirats Arabes Unis",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\ae\\24.png",
+        "cap": {
+            "cap": "Abu Dhabi"
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ae.png"
+    },
+    "GB": {
+        "name": "Royaume-Uni",
+        "cont": "europe",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\europe\\gb\\24.png",
+        "cap": "Londres",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\gb.png"
+    },
+    "US": {
+        "name": "\u00c9tats-Unis",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\us\\24.png",
+        "cap": {
+            "cap": "Washington, D.C."
+        },
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\us.png"
+    },
+    "UY": {
+        "name": "Uruguay",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\uy\\24.png",
+        "cap": "Montevideo",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\uy.png"
+    },
+    "UZ": {
+        "name": "Ouzb\u00e9kistan",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\uz\\24.png",
+        "cap": "Tachkent",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\uz.png"
+    },
+    "VU": {
+        "name": "Vanuatu",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\vu\\24.png",
+        "cap": "Port-Vila",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\vu.png"
+    },
+    "VE": {
+        "name": "Venezuela",
+        "cont": "samerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\samerica\\ve\\24.png",
+        "cap": "Caracas",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ve.png"
+    },
+    "VN": {
+        "name": "Vi\u00eat Nam",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\vn\\24.png",
+        "cap": "Hano\u00ef",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\vn.png"
+    },
+    "VI": {
+        "name": "\u00celes Vierges am\u00e9ricaines",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\vi\\24.png",
+        "cap": "Charlotte Amalie",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\vi.png"
+    },
+    "WF": {
+        "name": "Wallis-et-Futuna",
+        "cont": "oceania",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\oceania\\wf\\24.png",
+        "cap": "Mata-Utu",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\wf.png"
+    },
+    "EH": {
+        "name": "Sahara occidental",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\eh\\24.png",
+        "cap": "El Aai\u00fan",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\eh.png"
+    },
+    "YE": {
+        "name": "Y\u00e9men",
+        "cont": "asia",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\asia\\ye\\24.png",
+        "cap": "Sanaa",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\ye.png"
+    },
+    "ZM": {
+        "name": "Zambie",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\zm\\24.png",
+        "cap": "Lusaka",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\zm.png"
+    },
+    "ZW": {
+        "name": "Zimbabwe",
+        "cont": "africa",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\africa\\zw\\24.png",
+        "cap": "Harare",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\zw.png"
+    },
+    "CW": {
+        "name": "Cura\u00e7ao",
+        "cont": "namerica",
+        "path": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\mapsicon\\namerica\\cw\\24.png",
+        "cap": "Willemstad",
+        "flag": "C:\\Users\\DcPepper\\OneDrive\\Bureau\\PROGRAMATION\\WEBIGEO\\w80\\cw.png"
+    }
+}

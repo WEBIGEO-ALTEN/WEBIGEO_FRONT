@@ -26,19 +26,23 @@ function Record({ records, currRecord }) {
     let recordTable = <table className="table text-light">
         <tbody>
             <tr>
+                <th scope="col">#</th>
                 <th scope="col">User</th>
                 <th scope="col">Points</th>
                 <th scope="col">Temps</th>
             </tr>
             {records.map((record, i) => {
-
-                return (
-                    <tr key={`record-${i}`} className={record === currRecord ? `text-warning` : ""}>
-                        <th scope="row">{record.user}</th>
-                        <td>{record.points}</td>
-                        <td>{convertTime(Number(record.time))}</td>
-                    </tr>
-                )
+                if (record === currRecord || i <= 2) {
+                    return (
+                        <tr key={`record-${i}`} className={record === currRecord ? `text-warning` : ""}>
+                            <th scope="row">{i + 1}</th>
+                            <td>{record.user}</td>
+                            <td>{record.points}</td>
+                            <td>{convertTime(Number(record.time))}</td>
+                        </tr>
+                    )
+                }
+                return ""
             })}
         </tbody>
     </table>
