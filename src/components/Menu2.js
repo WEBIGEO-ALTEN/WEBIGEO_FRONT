@@ -38,7 +38,7 @@ function Menu2() {
     let rendu = countries.map(pay => {
         return <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} />
     });
-    return <div>
+    return <div className="bg-dark">
         {menu}
         <div className="country-list">{rendu}</div>
     </div>;

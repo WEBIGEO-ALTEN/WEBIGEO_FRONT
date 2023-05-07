@@ -5,7 +5,10 @@ import Timer from "./Timer";
 import Question from "./Question";
 import Header from "./Header";
 import Final from "./Final";
+import Record from "./Record";
 import { useParams } from "react-router-dom";
+
+import '../style/style.css'
 
 function Quiz2() {
     var [quiz, setQuiz] = useState([]);
@@ -17,6 +20,8 @@ function Quiz2() {
     var [goodanswer, setGoodanswer] = useState(0);
     var [good, setGood] = useState(false)
     var [time, setTime] = useState("");
+    var [currRecord, setCurrRecord] = useState("");
+
 
     const { id } = useParams();
 
@@ -48,7 +53,7 @@ function Quiz2() {
             .catch((err) => { })
     }, [quiz, id])
 
-    useEffect(() => {
+    const shuffleQuestions = (countries) => {
         const nbrQuestions = Math.min(quiz.nbr_question, countries.length);
         // We chose an answer for each question
 
@@ -61,7 +66,11 @@ function Quiz2() {
         }
         setAnswers(answerCountries);
         setChoices(choicesArr);
-    }, [countries, quiz.nbr_question])
+    }
+
+    useEffect(() => {
+        shuffleQuestions(countries);
+    }, [countries])
 
     const gogoShuff = xx => xx.map(x => [x, Math.random()]).sort((a, b) => a[1] - b[1]).map(x => x[0]);
 
@@ -95,54 +104,57 @@ function Quiz2() {
 
     }
     const updateRecord = (record) => {
-        setRecords(records.concat(record))
+        setRecords(records.concat(record));
+        setCurrRecord(record)
+    }
+
+    const reset = () => {
+
+
+        shuffleQuestions(countries);
+
+        setCurrQuestion(1);
+        setGoodanswer(0);
+        setGood(false);
+        setTime("");
+        setCurrRecord("");
     }
 
     const type_question = String(quiz.type_questions).split('_');
 
-    const name = quiz.name;
+
     var pay = choices && currQuestion ? answers[currQuestion - 2] : "Wait";
 
-    records.sort((a, b) => {
-        return a.points === b.points ? Number(a.time) - Number(b.time) : b.points - a.points;
-    })
+    var contentRender = currQuestion <= choices.length ? (
 
-    let recordTable = <table>
-        <tbody>
-            <tr>
-                <td>User</td>
-                <td>Points</td>
-                <td>Temps</td>
-            </tr>
-            {records.map((record, i) => {
-                return (
-                    <tr key={`record-${i}`}>
-                        <td>{record.user}</td>
-                        <td>{record.points}</td>
-                        <td>{convertTime(Number(record.time))}</td>
-                    </tr>
-                )
-            })}
-        </tbody>
-    </table>
-    return (
-        <div className="container h-75 d-flex flex-column justify-content-between align-items-center">
-            <div className="row"><Header /></div>
+        <div className="container w-100 h-75 d-flex flex-column justify-content-between align-items-center">
+
+            <div className="row w-100"><Header /></div>
             <div className="row">
-                {currQuestion <= choices.length ? <Timer active={currQuestion <= choices.length} saveTime={saveTime} /> : ""}
+                <Timer active={currQuestion <= choices.length} saveTime={saveTime} />
             </div>
-            <h2>{currQuestion <= choices.length ? currQuestion + "/" + choices.length : ""}</h2>
+            <h2>{currQuestion + "/" + choices.length}</h2>
             <>
-
-                {currQuestion <= choices.length ?
-                    <Question type_question={type_question} handleWrongAnswer={handleWrongAnswer} handleGoodAnswer={handleGoodAnswer} handleAnwser={currQuestion <= choices.length ? handleAnwser : ""} choice={choices[currQuestion - 1]} answer={answers[currQuestion - 1]} /> :
-                    <>{time ? <Final updateRecord={updateRecord} goodanswer={goodanswer} nbrQuestions={choices.length} time={time} id={id} handleAnwser={handleAnwser} /> : "Wait"}
-                        {time ? <div>{convertTime(time)}</div> : "Wait"}
-                        {recordTable}</>}
-                <div className={good ? "green fixed-bottom d-flex justify-content-center" : "red fixed-bottom d-flex justify-content-center"}>{pay && 2 <= currQuestion && currQuestion <= choices.length + 1 ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>
+                <Question type_question={type_question} handleWrongAnswer={handleWrongAnswer} handleGoodAnswer={handleGoodAnswer} handleAnwser={currQuestion <= choices.length ? handleAnwser : ""} choice={choices[currQuestion - 1]} answer={answers[currQuestion - 1]} />
+                <div className={good ? "fixed-bottom d-flex justify-content-center bg-success" : "bg-danger text-light fixed-bottom d-flex justify-content-center"}>{pay && 2 <= currQuestion && currQuestion <= choices.length + 1 ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>
             </>
 
         </div>
+    ) : (
+        <div className="container w-100 h-75 d-flex flex-column justify-content-start align-items-center">
+
+            <div className="row w-100"><Header /></div>
+            <Final updateRecord={updateRecord} goodanswer={goodanswer} nbrQuestions={choices.length} time={time} id={id} handleAnwser={handleAnwser} />
+            <Record records={records} currRecord={currRecord} />
+            <button type="button" className="btn btn-secondary" onClick={reset}>REJOUER</button>
+            <div className={good ? "fixed-bottom d-flex justify-content-center bg-success" : "bg-danger text-light fixed-bottom d-flex justify-content-center"}>{pay && 2 <= currQuestion && currQuestion <= choices.length + 1 ? <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} /> : ""}</div>
+        </div>
+    );
+
+    return (
+        <>
+            {contentRender}
+        </>
     )
 }
 

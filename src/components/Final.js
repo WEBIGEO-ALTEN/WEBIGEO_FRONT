@@ -31,14 +31,35 @@ function Final({ updateRecord, goodanswer, nbrQuestions, time, id, handleAnwser 
         updateRecord(data)
     }
 
-    return <>
+    const convertTime = (time) => {
+        console.log(time)
+        var mili = time % 100;
+        var nbrSeconds = Math.floor(time / 100);
+
+
+        var minutes = Math.floor(nbrSeconds / 60);
+        var seconds = nbrSeconds % 60;
+        if (String(minutes).length === 1) {
+            if (String(seconds).length === 1) {
+                return <>{String(mili).length === 1 ? `0${minutes}:0${seconds}:0${mili}` : `0${minutes}:0${seconds}:${mili}`}</>
+            }
+            return <>{String(mili).length === 1 ? `0${minutes}:${seconds}:0${mili}` : `0${minutes}:${seconds}:${mili}`}</>
+        }
+        if (String(seconds).length === 1) {
+            return <>{String(mili).length === 1 ? `${minutes}:0${seconds}:0${mili}` : `${minutes}:0${seconds}:${mili}`}</>
+        }
+        return <>{String(mili).length === 1 ? `${minutes}:${seconds}:0${mili}` : `${minutes}:${seconds}:${mili}`}</>
+    }
+
+    return <div>
 
         <div>Resultat:</div>
         <div>{goodanswer + "/" + nbrQuestions}</div>
-        {!send ? <div onClick={setUp}>Enregistrer le résultat</div> : !sent ? <div>
-            <input name='username' onChange={handleChange}></input> <div onClick={() => handleRecord(user)}>OK</div>
+        {time ? <div>{convertTime(time)}</div> : "Wait"}
+        {!send ? <button type='button' className='btn btn-secondary' onClick={setUp}>Enregistrer le résultat</button> : !sent ? <div>
+            <input name='username' onChange={handleChange}></input> <button type='button' className='btn btn-secondary' onClick={() => handleRecord(user)}>OK</button>
         </div> : ""}
-    </>
+    </div>
 }
 
 export default Final
