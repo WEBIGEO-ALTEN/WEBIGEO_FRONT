@@ -33,3 +33,87 @@ td {
     width: auto;
     max-height: 100%;
 }
+
+.FLAG {
+    position: relative;
+}
+
+.FLAG::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/flags.png');
+    opacity: .3;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.CAPITALE {
+    position: relative;
+}
+
+.CAPITALE::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/capitale.jpg');
+    opacity: .4;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.SHAPE {
+    position: relative;
+}
+
+.SHAPE::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/shape.jpg');
+    opacity: .3;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ALL {
+    position: relative;
+    background-image: linear-gradient(to right, rgba(240, 173, 78, .7), rgba(240, 173, 78, .7)), url('../images/shape.jpg');
+    background-size: cover, cover;
+    z-index: 0;
+
+}
+
+.ALL::before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(240, 173, 78, .3), rgba(240, 173, 78, .3)), url('../images/capitale.jpg');
+    background-size: cover;
+    opacity: .5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 66%;
+
+}
+
+.ALL::after {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(240, 173, 78, .3), rgba(240, 173, 78, .3)), url('../images/flags.png');
+    background-size: cover;
+    top: 0;
+    left: 66%;
+    bottom: 0;
+    right: 0;
+    opacity: .3;
+
+}

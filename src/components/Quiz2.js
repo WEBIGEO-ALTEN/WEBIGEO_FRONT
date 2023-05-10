@@ -29,7 +29,8 @@ function Quiz2() {
             // Get our quiz options
             .get('http://localhost:8000/quiz/')
             .then(res => {
-                setQuiz(res.data[id - 1])
+
+                setQuiz(res.data.filter(q => q.pk == id)[0])
             })
     }, [id])
 
