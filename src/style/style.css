@@ -117,3 +117,115 @@ td {
     opacity: .3;
 
 }
+
+.nameALL {
+    position: relative;
+}
+
+.nameALL::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/monde.jpg');
+    opacity: .4;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.nameEUROPE {
+    position: relative;
+}
+
+.nameEUROPE::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/europe.jpg');
+    opacity: .4;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.nameOCEANIA {
+    position: relative;
+}
+
+.nameOCEANIA::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/oceanie.jpg');
+    opacity: .4;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.nameASIA {
+    position: relative;
+}
+
+.nameASIA::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/asie.jpg');
+    opacity: .4;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.nameAFRICA {
+    position: relative;
+}
+
+.nameAFRICA::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/afrique.jpg');
+    opacity: .4;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.nameNAMERICA {
+    position: relative;
+}
+
+.nameNAMERICA::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/namerica.jpg');
+    opacity: .4;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.nameSAMERICA {
+    position: relative;
+}
+
+.nameSAMERICA::before {
+    content: "";
+    position: absolute;
+    background-image: url('../images/samerica.jpg');
+    opacity: .4;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

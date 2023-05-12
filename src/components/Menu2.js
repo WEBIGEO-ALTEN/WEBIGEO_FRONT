@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react"
+import { useNavigate } from "react-router-dom";
+
 import axios from "axios";
+
 import CountryDescription from "./CountryDescription";
 import Header from "./Header";
-import { useNavigate } from "react-router-dom";
-import flag from "../images/flags.png";
+
+
 import '../style/style.css'
 
 function Menu2() {
@@ -24,12 +27,7 @@ function Menu2() {
     }, [])
     let navigator = useNavigate();
 
-    var backgrounds = {
-        "FLAG": { flag },
-        "CAPITALE": "",
-        "SHAPE": "",
-        "ALL": "",
-    }
+   
 
     const quizChoice = (q) => {
         let path = `../quiz/${q.pk}`;
@@ -48,8 +46,25 @@ function Menu2() {
         })}
     </div>
 
+    var contientDict = {
+        "all":"monde",
+        "europe":"europe",
+        "asia":"asie",
+        "oceania":"oceanie",
+        "namerica":"Amérique du nord",
+        "samerica":"amérique du sud",
+        "africa":"afrique"
+    }
+
+    var typeDict = {
+        "FLAG":"DRAPEAU",
+        "ALL": "MIXTE",
+        "CAPITALE":"CAPITALE",
+        "SHAPE":"FORME"
+    }
+
     const handleType = (ev) => {
-        setTypes(ev.target.textContent);
+        setTypes(Object.entries(typeDict).filter(item => item[1] == ev.target.textContent)[0][0]);
     }
     let rendu = countries.map(pay => {
         return <CountryDescription iso={pay.pk} name={pay.name} flag={pay.flag.slice(0, -2)} shape={pay.shape} cap={pay.capitale} key={pay.pk} cont={pay.continent} />
@@ -59,17 +74,17 @@ function Menu2() {
         {Object.keys(quesionnaries).map((type, i) => {
 
 
-            if (types === "") { return <div className={`${type} w-50 h-25 bg-warning text-dark m-2 d-flex justify-content-center align-items-center`} key={`type-${i}`} onClick={handleType}><h1>{type}</h1></div> }
+            if (types === "") { return <div className={`${type} w-50 h-25 bg-warning text-dark m-2 d-flex justify-content-center align-items-center`} key={`type-${i}`} onClick={handleType}><h1>{typeDict[type]}</h1></div> }
             else {
-                if (type === types) {
-
+                console.log(types)
+                if ( type === types) {
+                    console.log(types)
                     var names = quesionnaries[types].map((name, j) => {
-
-                        return <div className="w-50 h-25 bg-warning text-dark m-2 d-flex justify-content-center align-items-center" key={`type-${types}-name-${j}`} onClick={() => quizChoice(quiz.filter(q => q.name.toUpperCase() === `${name}_${types}`.toUpperCase())[0])}>{name}</div>
+                        return <div className={`name${name} w-50 h-25 bg-warning text-dark m-2 d-flex justify-content-center align-items-center`} key={`type-${types}-name-${j}`} onClick={() => quizChoice(quiz.filter(q => q.name.toUpperCase() === `${name}_${types}`.toUpperCase())[0])}>{contientDict[name.toLowerCase()].toUpperCase()}</div>
                     })
                     return <>
                         {names}
-                        <button type="button" className="btn btn-secondary" onClick={() => setTypes("")}>↩</button>
+                        <button  type="button" className="mb-2 btn btn-secondary" onClick={() => setTypes("")}>↩</button>
                     </>
                 }
             }

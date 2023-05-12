@@ -49,7 +49,7 @@ function Record({ records, currRecord }) {
 
 
 
-    return (<div>{recordTable}</div>)
+    return (<div className="mt-2">{recordTable}</div>)
 }
 
 export default Record

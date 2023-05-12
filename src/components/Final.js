@@ -56,9 +56,11 @@ function Final({ updateRecord, goodanswer, nbrQuestions, time, id, handleAnwser 
 
     return <div>
 
-        <div>RESULTAT:</div>
+        <div className='d-flex justify-content-center'>RESULTAT:</div>
+        <div className='d-flex m-2 justify-content-around'>
         <div>{goodanswer + "/" + nbrQuestions}</div>
-        {time ? <div>{convertTime(time)}</div> : "Wait"}
+        {time ? <div className='ml-3'>{convertTime(time)}</div> : "Wait"}
+        </div>
         {!send ? <button type='button' className='btn btn-secondary' onClick={setUp}>Enregistrer le résultat</button> : !sent ? <div>
             <input name='username' onChange={handleChange}></input> <button type='button' className='btn btn-secondary' onClick={() => handleRecord(user)}>OK</button>
         </div> : ""}
