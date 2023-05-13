@@ -27,7 +27,7 @@ function Quiz2() {
     useEffect(() => {
         axios
             // Get our quiz options
-            .get('http://localhost:8000/quiz/')
+            .get('http://dcpepper.pythonanywhere.com/quiz/')
             .then(res => {
 
                 setQuiz(res.data.filter(q => q.pk == id)[0])
@@ -36,12 +36,12 @@ function Quiz2() {
 
     useEffect(() => {
 
-        axios.get('http://localhost:8000/country/?continent=' + quiz.continents)
+        axios.get('http://dcpepper.pythonanywhere.com/country/?continent=' + quiz.continents)
             .then(res => {
                 setCountries(res.data)
             })
             .catch((err) => { })
-        axios.get(`http://localhost:8000/record/?quiz=${id}`)
+        axios.get(`http://dcpepper.pythonanywhere.com/record/?quiz=${id}`)
             .then(res => {
                 setRecords(res.data);
             })

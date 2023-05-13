@@ -15,12 +15,12 @@ function Menu2() {
     var [types, setTypes] = useState("");
     useEffect(() => {
         axios
-            .get('http://localhost:8000/country/')
+            .get('http://dcpepper.pythonanywhere.com/country/')
             .then(res => {
                 setCountries(res.data)
             })
         axios
-            .get('http://localhost:8000/quiz/')
+            .get('http://dcpepper.pythonanywhere.com/quiz/')
             .then(res => {
                 setQuiz(res.data)
             })
