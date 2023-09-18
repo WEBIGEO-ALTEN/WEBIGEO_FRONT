@@ -14,12 +14,12 @@ function Menu2() {
     var [types, setTypes] = useState("");
     useEffect(() => {
         axios
-            .get('http://django-service:8000/country/')
+            .get('http://4.236.153.248:32726/country/')
             .then(res => {
                 setCountries(res.data)
             })
         axios
-            .get('http://django-service:8000/quiz/')
+            .get('http://4.236.153.248:32726/quiz/')
             .then(res => {
                 setQuiz(res.data)
             })
