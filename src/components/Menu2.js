@@ -14,12 +14,12 @@ function Menu2() {
     var [types, setTypes] = useState("");
     useEffect(() => {
         axios
-            .get('http://4.236.153.248:32726/country/')
+            .get('https://api.webigeo.dcpepper.cloudns.ph/country/')
             .then(res => {
                 setCountries(res.data)
             })
         axios
-            .get('http://4.236.153.248:32726/quiz/')
+            .get('https://api.webigeo.dcpepper.cloudns.ph/quiz/')
             .then(res => {
                 setQuiz(res.data)
             })

@@ -27,7 +27,7 @@ function Quiz2() {
     useEffect(() => {
         axios
             // Get our quiz options
-            .get('http://4.236.153.248:32726/quiz/')
+            .get('https://api.webigeo.dcpepper.cloudns.ph/quiz/')
             .then(res => {
 
                 setQuiz(res.data.filter(q => q.pk == id)[0])
@@ -36,12 +36,12 @@ function Quiz2() {
 
     useEffect(() => {
 
-        axios.get('http://4.236.153.248:32726/country/?continent=' + quiz.continents)
+        axios.get('https://api.webigeo.dcpepper.cloudns.ph/country/?continent=' + quiz.continents)
             .then(res => {
                 setCountries(res.data)
             })
             .catch((err) => { })
-        axios.get(`http://4.236.153.248:32726/record/?quiz=${id}`)
+        axios.get(`https://api.webigeo.dcpepper.cloudns.ph/record/?quiz=${id}`)
             .then(res => {
                 setRecords(res.data);
             })
