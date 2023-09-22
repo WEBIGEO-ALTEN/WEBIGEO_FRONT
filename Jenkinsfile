@@ -3,7 +3,9 @@ pipeline{
     stages{
         stage("DataScientest Variables"){
             steps{
-                sh "Hello baby"
+                sh """
+                echo "Hello baby"
+                """"
             }
 
         }
