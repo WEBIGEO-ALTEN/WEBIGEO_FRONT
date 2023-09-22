@@ -9,7 +9,7 @@ pipeline{
         stage("Front End image"){
             steps{
                 sh """
-                docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile --no-cahe
+                docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile --no-cache
                 """
             }
 
