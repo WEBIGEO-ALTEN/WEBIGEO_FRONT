@@ -44,6 +44,7 @@ pipeline{
         stage("Removing the container and Image"){
             steps{            
                 sh"""
+                docker stop $DOCKER_FRONT
                 docker rm $DOCKER_FRONT
                 docker rmi $DOCKER_IMAGE:$DOCKER_TAG
                 """ 
