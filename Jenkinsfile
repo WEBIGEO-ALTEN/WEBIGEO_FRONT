@@ -9,5 +9,17 @@ pipeline{
             }
 
         }
+
+        stage("Invoking another pipeline"){
+            steps{
+                build job: 'WEBIGEO',parameters:[string(name:'param1',value:"value1")],wait: true
+            }
+        }
+
+        stage("End"){
+            steps{
+                echo "Bye"
+            }
+        }
     }
 }
