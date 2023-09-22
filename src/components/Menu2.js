@@ -60,6 +60,8 @@ function Menu2() {
         setTypes(Object.entries(typeDict).filter(item => item[1] === ev.target.textContent)[0][0]);
     }
 
+    console.log(process.env.REACT_APP_API_DNS)
+    console.log(process.env)
     return <div className="bg-dark d-flex flex-column align-items-center h-100">
         <Header />
         {Object.keys(quesionnaries).map((type, i) => {
