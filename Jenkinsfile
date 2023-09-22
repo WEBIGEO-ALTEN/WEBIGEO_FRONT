@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("DataScientest Variables"){
             steps{
-                echo "Hello baby"
+                echo "Hello baby1"
                 sh "printenv"
                 echo "The build id is ${env.BUILD_ID}"
             }
