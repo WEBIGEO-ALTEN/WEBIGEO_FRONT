@@ -26,6 +26,7 @@ pipeline{
         stage("Testing the containers") {
             steps {
                 script {
+                    echo "curl -i http://localhost:3020"
                     def url = "http://localhost:3020"
             
                     def response = sh(script: "curl -i $url", returnStatus: true)
