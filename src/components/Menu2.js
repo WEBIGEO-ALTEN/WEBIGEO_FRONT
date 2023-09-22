@@ -14,7 +14,7 @@ function Menu2() {
     var [types, setTypes] = useState("");
     useEffect(() => {
         axios
-            .get(`https://${process.env.REACT_APP_API_DNS}/country/`)
+            .get(`https://${process.env.REACT_APP_API_DNS || process.env.example.REACT_APP_API_DNS}/country/`)
             .then(res => {
                 setCountries(res.data)
             })
