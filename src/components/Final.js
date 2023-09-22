@@ -23,12 +23,12 @@ function Final({ updateRecord, goodanswer, nbrQuestions, time, id, handleAnwser 
             "time": time,
             "user": user,
             "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0",
-            "quiz": `https://api.webigeo.dcpepper.cloudns.ph/quiz/${id}/`,
+            "quiz": `https://${process.env.REACT_APP_API_DNS}/quiz/${id}/`,
             "points": goodanswer
 
         };
         if (user !== "") {
-            axios.post('https://api.webigeo.dcpepper.cloudns.ph/record/', data)
+            axios.post(`https://${process.env.REACT_APP_API_DNS}/record/`, data)
         }
         setSent(true);
         updateRecord(data)
