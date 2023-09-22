@@ -30,7 +30,7 @@ pipeline{
                 script {
                     def url = "http://localhost:3020/"
             
-                    def response = sh(script: "curl -s $url", returnStatus: true)
+                    def response = sh(script: "curl -i $url", returnStatus: true)
             
                     if (response == 0) {
                         echo "HTTP request to $url was successful"
