@@ -28,7 +28,7 @@ pipeline{
                 //docker exec -it $DOCKER_FRONT sh
                 //curl -X GET -i https://localhost:3020
                 script {
-                    def url = "https://localhost:3020/"
+                    def url = "http://localhost:3020/"
             
                     def response = sh(script: "curl -s $url", returnStatus: true)
             
