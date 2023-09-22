@@ -54,7 +54,7 @@ pipeline{
         stage("Invoking another pipeline"){
             steps{
                 echo "printenv"
-                //build job: 'WEBIGEO',parameters:[string(name:'param1',value:"value1")],wait: true
+                build job: 'WEBIGEO',parameters:[string(name:'param1',value:"value1")],wait: true
             }
         }
 
