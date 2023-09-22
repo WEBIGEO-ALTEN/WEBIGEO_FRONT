@@ -23,21 +23,25 @@ pipeline{
             }
         }
 
-        stage("Testing the containers"){
-            steps{
-                //docker exec -it $DOCKER_FRONT sh
-                //curl -X GET -i https://localhost:3020
+        stage("Testing the containers") {
+            steps {
                 script {
                     def url = "http://localhost:3020"
             
                     def response = sh(script: "curl -i $url", returnStatus: true)
             
                     if (response == 0) {
-                        echo "HTTP request to $url was successful"
+                        error "HTTP request to $url failed, check the URL and try again."
                     } else {
-                        error "HTTP request to $url failed with status code $response"
-                    }
-                }  
+                        def statusCode = sh(script: "curl -s -o /dev/null -w '%{http_code}' $url", returnStatus: true).trim()
+                
+                        if (statusCode.startsWith("2")) {
+                            echo "HTTP request to $url was successful. Status code: $statusCode"
+                        } else {
+                            error "HTTP request to $url failed with status code $statusCode"
+                        }
+                     }
+                }
             }
         }
 
