@@ -10,7 +10,7 @@ pipeline {
             steps {
                 script {
                     echo "Building Docker image: $DOCKER_IMAGE:$DOCKER_TAG"
-                    sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache"
+                    //sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache"
                 }
             }
         }
