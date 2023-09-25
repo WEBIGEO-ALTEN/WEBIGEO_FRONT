@@ -9,6 +9,8 @@ pipeline {
         stage("Front End image") {
             steps {
                 script {
+                    sh "docker stop $DOCKER_FRONT"
+                    sh "docker rm $DOCKER_FRONT"
                     echo "Building Docker image: $DOCKER_IMAGE:$DOCKER_TAG"
                     //sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache"
                 }
@@ -40,7 +42,7 @@ pipeline {
                         error "HTTP request to $url failed, check the URL and try again."
                     } else {
                         def statusCode = sh(script: "curl -s -o /dev/null -w '%{http_code}' $url", returnStatus: true).trim()
-
+                        echo "statusCode"
                         if (statusCode.startsWith("2")) {
                             echo "HTTP request to $url was successful. Status code: $statusCode"
                         } else {
