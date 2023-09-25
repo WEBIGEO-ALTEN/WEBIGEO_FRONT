@@ -12,17 +12,7 @@ pipeline {
                     def images = sh(script: 'docker images', returnStatus: true).trim()
                     echo "${images}"
 
-                    if (images.contains("$DOCKER_IMAGE:$DOCKER_TAG")) {
-                        sh """
-                        docker stop $DOCKER_FRONT
-                        docker rm $DOCKER_FRONT
-                        docker rmi $DOCKER_IMAGE:$DOCKER_TAG
-                        """
-                    } else {
-                        sh """
-                        docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache
-                        """
-                    }
+                  
 
                 }
 
