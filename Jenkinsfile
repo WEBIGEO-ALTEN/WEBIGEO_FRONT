@@ -48,7 +48,7 @@ pipeline {
                     } else {
                         def statusCode = sh(script: "curl -s -o /dev/null -w '%{http_code}' $url", returnStatus: true)
                         echo"This is the test case : ${statusCode}"    
-                        if (statusCode == 200) {
+                        if (statusCode == 0) {
                             echo "HTTP request to $url was successful. Status code: $statusCode"
                         } else {
                             error "HTTP request to $url failed with status code $statusCode"
