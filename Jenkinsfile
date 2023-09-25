@@ -27,6 +27,10 @@ pipeline{
             steps {
                 script {
                     echo "curl -i http://localhost:3020"
+                    sh """
+                    curl -i http://localhost:3020
+                    """
+                    /*/
                     def url = "http://localhost:3020"
             
                     def response = sh(script: "curl -i $url", returnStatus: true)
@@ -41,7 +45,8 @@ pipeline{
                         } else {
                             error "HTTP request to $url failed with status code $statusCode"
                         }
-                     }
+                    }
+                    /*/
                 }
             }
         }
