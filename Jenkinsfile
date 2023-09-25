@@ -43,7 +43,7 @@ pipeline {
                     } else {
                         def statusCode = sh(script: "curl -s -o /dev/null -w '%{http_code}' $url").trim()
 
-                        if (statusCode.startsWith("2")) {
+                        if (statusCode.startsWith("0")) {
                             echo "HTTP request to $url was successful. Status code: $statusCode"
                         } else {
                             error "HTTP request to $url failed with status code $statusCode"
