@@ -9,9 +9,12 @@ pipeline {
         stage("Front End image") {
             steps {
                 script {
-                    def images = sh(script: 'docker images', returnStatus: true).trim()
-                    echo "${images}"
-
+                    //def images = sh(script: 'docker images', returnStatus: true).trim()
+                    //echo "${images}"
+                    echo "printenv"
+                    sh"""
+                    docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache
+                    """
                   
 
                 }
