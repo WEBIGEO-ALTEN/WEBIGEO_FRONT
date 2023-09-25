@@ -13,7 +13,7 @@ pipeline {
                     //echo "${images}"
                     echo "printenv"
                     sh"""
-                    docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache
+                    #docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache
                     """
                   
 
