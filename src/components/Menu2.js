@@ -14,7 +14,7 @@ function Menu2() {
     var [types, setTypes] = useState("");
     useEffect(() => {
         axios
-            .get(`https://${process.env.REACT_APP_API_DNS || "webigeo-pre.dcpepper.cloudns.ph"}/country/`)
+            .get(`https://${process.env.REACT_APP_API_DNS || "api.webigeo-pre.dcpepper.cloudns.ph"}/country/`)
             .then(res => {
                 setCountries(res.data)
             })
