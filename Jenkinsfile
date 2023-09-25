@@ -39,7 +39,7 @@ pipeline {
 
                     def ipAddress = sh(script: "docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $containerId", returnStdout: true).trim()
 
-                    def url = "http://${ipAddress}:3020/home"
+                    def url = "http://${ipAddress}:3020"
 
                     echo "Testing application at $url"
                     
