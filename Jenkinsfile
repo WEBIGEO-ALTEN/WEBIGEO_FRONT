@@ -11,7 +11,6 @@ pipeline {
                 script {
                     def images = sh(script: 'docker images', returnStatus: true).trim()
                     echo "images"
-
                     if (images.contains("$DOCKER_IMAGE:$DOCKER_TAG")) {
                         sh """
                         docker stop $DOCKER_FRONT
