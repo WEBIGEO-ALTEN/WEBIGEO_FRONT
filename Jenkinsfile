@@ -37,8 +37,9 @@ pipeline {
 
                     sshagent(credentials: ['sgoli']) {
                         sh """
-                            ssh sgoli@4.236.153.248 'docker exec $DOCKER_FRONT curl -o /path/to/local/file https://localhost/home'
+                        ssh sgoli@4.236.153.248 'docker exec $DOCKER_FRONT curl -o /path/to/local/file https://localhost/home'
                         """
+                    }
                     /*/
                     def url = "http://0.0.0.0:3020/home"
 
