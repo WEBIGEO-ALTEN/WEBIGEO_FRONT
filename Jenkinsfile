@@ -34,14 +34,15 @@ pipeline {
         stage("Testing the containers") {
             steps {
                 script {
-
+                    /*/
                     sshagent(credentials: ['sgoli']) {
                         sh """
                         ssh sgoli@4.236.153.248 'docker exec $DOCKER_FRONT curl -o /path/to/local/file https://localhost/home'
                         """
                     }
                     /*/
-                    def url = "http://0.0.0.0:3020/home"
+            
+                    def url = "http://4.236.153.248:3020/home"
 
                     def response = sh(script: "curl -i $url", returnStatus: true)
 
@@ -56,7 +57,7 @@ pipeline {
                             error "HTTP request to $url failed with status code $statusCode"
                         }
                     }
-                    /*/
+                    
                 }
             }
         }
