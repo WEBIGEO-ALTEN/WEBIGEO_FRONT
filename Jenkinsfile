@@ -35,7 +35,7 @@ pipeline {
             steps {
                 script {
 
-                    def url = "http://localhost:3020/home"
+                    def url = "http://0.0.0.0:3020/home"
 
                     def response = sh(script: "curl -i $url", returnStatus: true)
 
