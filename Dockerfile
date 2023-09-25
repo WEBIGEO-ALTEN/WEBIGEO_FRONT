@@ -2,7 +2,7 @@
 FROM node:latest
 
 #Env variables
-ARG API_DNS=webigeo-pre.dcpepper.cloudns.ph
+ARG API_DNS=api.webigeo-pre.dcpepper.cloudns.ph
 
 # Install Node.js and npm
 RUN apt update && apt install -y git nodejs npm
@@ -13,7 +13,7 @@ RUN git clone https://github.com/WEBIGEO-ALTEN/WEBIGEO_FRONT.git
 WORKDIR WEBIGEO_FRONT/
 
 #Create the .env file depending on the environment
-RUN echo $API_DNS > .env
+RUN echo "REACT_APP_API_DNS=$API_DNS" > .env
 
 #Install all dependencies
 RUN npm i

@@ -23,7 +23,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "build": "react-scripts build",
-        "test": "react-scripts test",
+        "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!my-library-dir)/'",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
