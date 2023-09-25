@@ -28,21 +28,29 @@ pipeline {
         }
 
         stage("Testing the containers") {
+            stage("Testing the containers") {
             steps {
                 script {
-                    def url = "http://localhost:3020/home"
-                    def timeout = 30 // Set your desired timeout in seconds
+                    def containerId = sh(script: "docker ps -qf name=$DOCKER_FRONT", returnStdout: true).trim()
+
+                    if (containerId.empty) {
+                        error "Docker container $DOCKER_FRONT not found or not running."
+                    }
+
+                    def ipAddress = sh(script: "docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $containerId", returnStdout: true).trim()
+
+                    def url = "http://${ipAddress}:3020/home"
 
                     echo "Testing application at $url"
                     
                     // Use 'timeout' to prevent 'curl' from running indefinitely
-                    def response = sh(script: "timeout $timeout curl -i $url", returnStatus: true)
+                    def response = sh(script: "timeout 30 curl -i $url", returnStatus: true)
 
                     if (response != 0) {
                         error "HTTP request to $url failed, check the URL and try again."
                     } else {
                         def statusCode = sh(script: "curl -s -o /dev/null -w '%{http_code}' $url", returnStatus: true)
-                        echo "${statusCode}"
+
                         if (statusCode.startsWith("2")) {
                             echo "HTTP request to $url was successful. Status code: $statusCode"
                         } else {
@@ -51,6 +59,7 @@ pipeline {
                     }
                 }
             }
+        }
         }
 
         stage("Removing the container and Image") {
