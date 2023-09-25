@@ -10,6 +10,7 @@ pipeline {
             steps {
                 script {
                     def images = sh(script: 'docker images', returnStatus: true).trim()
+                    echo "images"
 
                     if (images.contains("$DOCKER_IMAGE:$DOCKER_TAG")) {
                         sh """
@@ -37,7 +38,7 @@ pipeline {
         stage("Testing the containers") {
             steps {
                 script {
-                    
+
                     def url = "http://localhost:3020"
 
                     def response = sh(script: "curl -i $url", returnStatus: true)
