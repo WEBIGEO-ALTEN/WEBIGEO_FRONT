@@ -26,6 +26,7 @@ pipeline {
             steps {
                 sh """
                 docker run -d -p 3020:3000 --name $DOCKER_FRONT $DOCKER_IMAGE:$DOCKER_TAG
+                docker ps
                 """
             }
         }
