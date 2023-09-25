@@ -31,15 +31,12 @@ pipeline {
         stage("Testing the containers") {
             steps {
                 script {
+                    def serveripaddress = "4.236.153.248"
                     def containerId = sh(script: "docker ps -qf name=$DOCKER_FRONT", returnStdout: true).trim()
+                
 
-                    if (containerId.empty) {
-                        error "Docker container $DOCKER_FRONT not found or not running."
-                    }
 
-                    def ipAddress = sh(script: "docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $containerId", returnStdout: true).trim()
-
-                    def url = "http://${ipAddress}:3020"
+                    def url = "http://${serveripaddress}:3020"
 
                     echo "Testing application at $url"
                     
