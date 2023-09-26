@@ -14,7 +14,7 @@ pipeline {
 
                     echo "This is the output : ${container}"
 
-                    if (container.contains(env.DOCKER_BACK)){
+                    if (container.contains(env.DOCKER_FRONT)){
                         sh "docker stop $DOCKER_FRONT"
                         sh "docker rm $DOCKER_FRONT"
                         sh "docker rmi $DOCKER_IMAGE:$DOCKER_TAG"
