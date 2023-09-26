@@ -6,6 +6,26 @@ pipeline {
         DOCKER_FRONT = "Front_Container"
     }
     stages {
+
+        stage("Clean the containers"){
+            steps{
+                script{
+                    def container = sh(script: 'docker ps',returnStdout: true).trim()
+
+                    echo "This is the output : ${container}"
+
+                    if (container.contains(env.DOCKER_BACK)){
+                        sh "docker stop $DOCKER_FRONT"
+                        sh "docker rm $DOCKER_FRONT"
+                        sh "docker rmi $DOCKER_IMAGE:$DOCKER_TAG"
+                    }
+                    else{
+                        echo "The container is clean"
+                    }
+                }
+            }
+        }
+
         stage("Front End image") {
             steps {
                 script {
