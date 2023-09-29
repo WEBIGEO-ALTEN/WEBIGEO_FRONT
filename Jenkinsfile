@@ -77,8 +77,43 @@ pipeline {
                 }
             }
         }
-        
 
+        stage('Test the app'){
+            steps{
+                script{
+                    sh 
+                    """docker exec -it $DOCKER_FRONT $DOCKER_IMAGE:$DOCKER_TAG bash
+                    npm run test >> result.txt
+                    
+                    """
+                    def result = (script:"cat result.txt | grep -i pass",returnStdout= true)
+                    if (result =! 'null'){
+                        echo "result of the test: $result"                        
+                    } else {
+                        error "The test has not passed: $result"
+                    }
+                }
+            }
+        }
+        
+        stage('Pushing Back End image to DockerHub') {
+            environment
+            {
+                DOCKER_PASS = credentials("DOCKER_HUB_PASS") 
+            }
+
+            steps {
+
+                script {
+                sh '''
+                echo "docker login -u $DOCKER_ID -p $DOCKER_PASS"
+                docker login -u $DOCKER_ID -p "yP?5Q>Ktp+YA%#_"
+                docker push $DOCKER_ID/$DOCKER_BACK_IMAGE:$DOCKER_TAG_TEST
+                '''
+                }
+            }
+        }
+        /*/    
         stage("Removing the container and Image") {
             steps {
                 script {
@@ -90,14 +125,14 @@ pipeline {
                 }
             }
         }
-        /*/
+
         stage("Invoking another pipeline") {
             steps {
                 echo "Triggering another pipeline job"
                 build job: 'WEBIGEO', parameters: [string(name: 'param1', value: "value1")], wait: true
             }
-        }/*/
-        
+
+        /*/
         stage("Invoking another pipeline") {
             steps {
                 script {
