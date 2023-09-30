@@ -87,8 +87,6 @@ pipeline {
                     sh 
                     """
                     docker exec -d $DOCKER_FRONT npm run test >> result.txt 
-                    cat result.txt 
-                    exit
                     """
                     sleep(time: 60,unit: 'SECONDS')
                     
