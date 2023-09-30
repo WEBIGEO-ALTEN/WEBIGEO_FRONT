@@ -83,15 +83,16 @@ pipeline {
         stage('Test the app'){
             steps{
                 script{
-                    sh 
-                    """docker exec -it $DOCKER_FRONT $DOCKER_IMAGE:$DOCKER_TAG bash -c 'npm run test >> result.txt' 
-                    """
+                    def tapp = """docker exec -it $DOCKER_FRONT $DOCKER_IMAGE:$DOCKER_TAG bash -c 'npm run test >> result.txt'"""
+                    sh tapp
+                    /*/
                     def result = sh(script: 'cat result.txt | grep -i pass || true', returnStatus: true)
                     if (result == 0){
                         echo "result of the test: $result"                        
                     } else {
                         error "The test has not passed: $result"
                     }
+                    /*/
                 }
             }
         }
