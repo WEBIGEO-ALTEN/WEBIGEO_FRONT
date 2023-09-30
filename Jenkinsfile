@@ -84,22 +84,15 @@ pipeline {
             steps {
                 script {
                     // Run npm test in the Docker container and append output to result.txt
-                    def result = sh(script: "docker exec -d $DOCKER_FRONT npm run test >> result.txt && cat result.txt",returnStdout=true)
+                    def result = sh(script: "docker exec -d $DOCKER_FRONT npm run test >> result.txt && cat result.txt",returnStdout: true)
                     echo "print the results of : ${result}"
                     // Wait for the test to complete (adjust the sleep time as needed)
                     sleep(time: 30, unit: 'SECONDS')
 
-                    // Copy the test result file from the container
-                    //sh "docker cp $DOCKER_FRONT:/path/to/your/result.txt ."
-
-                    // Display the contents of result.txt
-                    //def catResult = readFile('result.txt').trim()
-
-                    // Check the contents for the "pass" keyword
                     if (result.contains('pass')) {
                         echo "Test passed"
                     } else {
-                    error "The test has not passed: $catResult"
+                    error "The test has not passed: $result"
                     }
                 }
             }
