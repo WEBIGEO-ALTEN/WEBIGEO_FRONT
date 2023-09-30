@@ -83,7 +83,7 @@ pipeline {
         stage('Test the app'){
             steps{
                 script{
-                    def tapp = """docker exec $DOCKER_FRONT test bash -c 'npm run test >> result.txt'"""
+                    def tapp = """docker exec $DOCKER_FRONT bash -c 'npm run test >> result.txt'"""
                     sh tapp
                     /*/
                     def result = sh(script: 'cat result.txt | grep -i pass || true', returnStatus: true)
