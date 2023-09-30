@@ -83,10 +83,9 @@ pipeline {
                 script{
                     sh 
                     """docker exec -it $DOCKER_FRONT $DOCKER_IMAGE:$DOCKER_TAG bash
-                    npm run test >> result.txt
-                    
+                    npm run test >> result.txt 
                     """
-                    def result = (script:"cat result.txt | grep -i pass",returnStdout= true)
+                    def result = (script: "cat result.txt | grep -i pass",returnStdout= true)
                     if (result =! 'null'){
                         echo "result of the test: $result"                        
                     } else {
