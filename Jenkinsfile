@@ -4,7 +4,7 @@ pipeline {
     }
     environment {
         DOCKER_IMAGE = "my_react"
-        DOCKER_TAG = "front_test"
+        DOCKER_TAG = "test"
         DOCKER_FRONT = "Front_Container"
     }
     stages {
