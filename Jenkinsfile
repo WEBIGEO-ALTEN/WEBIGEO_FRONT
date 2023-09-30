@@ -84,10 +84,10 @@ pipeline {
             steps {
                 script {
                     // Run npm test in the Docker container and append output to result.txt
-                    def result = sh(script: "docker exec -d $DOCKER_FRONT npm run test && a && q",returnStatus: true)
+                    def result = sh(script: "docker exec -d $DOCKER_FRONT npm run test",returnStatus: true)
                     echo "print the results of : ${result}"
                     // Wait for the test to complete (adjust the sleep time as needed)
-                    sleep(time: 30, unit: 'SECONDS')
+                    sleep(time: 10, unit: 'SECONDS')
 
                     if (result == 0) {
                         echo "Test passed"
