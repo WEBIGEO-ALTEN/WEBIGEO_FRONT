@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'Built-in Node'
+    }
     environment {
         DOCKER_IMAGE = "my_react"
         DOCKER_TAG = "front_test"
