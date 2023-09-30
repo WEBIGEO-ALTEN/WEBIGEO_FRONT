@@ -3,7 +3,7 @@ pipeline {
         label 'Front_End'
     }
     environment {
-        DOCKER_IMAGE = "my_react"
+        DOCKER_IMAGE = "my-react"
         DOCKER_TAG = "test"
         DOCKER_FRONT = "Front_Container"
     }
@@ -111,7 +111,7 @@ pipeline {
                     sh '''
                     echo "docker login -u $DOCKER_ID -p $DOCKER_HUB_TOKEN"
                     docker login -u "webigeo" -p "yP?5Q>Ktp+YA%#_"
-                    docker push "webigeo"/$DOCKER_IMAGE:"test"
+                    docker push "webigeo"/$DOCKER_IMAGE:$DOCKER_TAG
                 '''
                 }
             }
