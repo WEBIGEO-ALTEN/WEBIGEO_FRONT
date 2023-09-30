@@ -80,26 +80,26 @@ pipeline {
             }
         }
 
-        stage('Test the app'){
-            steps{
-                script{
-                    //def tapp = sh(script: "docker exec -d $DOCKER_FRONT npm run test > result.txt && echo \$?", returnStatus: true).trim()
-                    sh 
-                    """
-                    docker exec -d $DOCKER_FRONT npm run test >> result.txt 
-                    """
-                    sleep(time: 60,unit: 'SECONDS')
-                    
+       stage('Test the app') {
+            steps {
+                script {
+                    // Run npm test in the Docker container and append output to result.txt
+                    sh "docker exec -d $DOCKER_FRONT npm run test >> result.txt"
+
+                    // Wait for the test to complete (adjust the sleep time as needed)
+                    sleep(time: 60, unit: 'SECONDS')
+
+                    // Copy the test result file from the container
                     sh "docker cp $DOCKER_FRONT:/path/to/your/result.txt ."
 
-                     // Display the contents of result.txt
+                    // Display the contents of result.txt
                     def catResult = readFile('result.txt').trim()
 
-                    //echo "Contents of result.txt: $catResult"
-                    if (catResult.contains('pass')){
-                        echo "result of the test: $catResult"                        
+                    // Check the contents for the "pass" keyword
+                    if (catResult.contains('pass')) {
+                        echo "Test passed"
                     } else {
-                        error "The test has not passed: $result"
+                    error "The test has not passed: $catResult"
                     }
                 }
             }
