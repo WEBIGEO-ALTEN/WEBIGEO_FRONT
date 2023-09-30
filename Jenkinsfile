@@ -84,7 +84,7 @@ pipeline {
             steps{
                 script{
                     def tapp = sh(script: "docker exec -d $DOCKER_FRONT npm run test > result.txt && echo \$?", returnStatus: true).trim()
-                    echo "tapp"
+                    echo "the result of :${tapp}"
                     sleep(time: 60,unit: 'SECONDS')
                     
                     //sh "docker cp $DOCKER_FRONT:/path/to/your/result.txt ."
@@ -93,8 +93,6 @@ pipeline {
                     //def catResult = readFile('result.txt').trim()
 
                     //echo "Contents of result.txt: $catResult"
-
-                    
                     if (tapp == 0){
                         echo "result of the test: $result"                        
                     } else {
