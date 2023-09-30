@@ -19,7 +19,7 @@ pipeline {
                     if (container.contains(env.DOCKER_FRONT)){
                         sh "docker stop $DOCKER_FRONT"
                         sh "docker rm $DOCKER_FRONT"
-                        sh "docker rmi $DOCKER_IMAGE:$DOCKER_TAG"
+                        sh "docker rmi $DOCKER_IMAGE:$DOCKER_TAG || true"
                     }
                     else{
                         echo "The container is clean"
