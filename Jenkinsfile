@@ -107,10 +107,10 @@ pipeline {
             steps {
 
                 script {
-                    env.DOCKER_HUB_TOKEN = DOCKER_HUB_TOKEN
+                    //env.DOCKER_HUB_TOKEN = DOCKER_HUB_TOKEN
                     sh '''
                     echo "docker login -u $DOCKER_ID -p $DOCKER_HUB_TOKEN"
-                    docker login -u $DOCKER_ID -p "yP?5Q>Ktp+YA%#_"
+                    docker login -u $DOCKER_ID -p $DOCKER_HUB_TOKEN
                     docker push $DOCKER_ID/$DOCKER_IMAGE:$DOCKER_TAG
                 '''
                 }
