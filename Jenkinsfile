@@ -34,7 +34,7 @@ pipeline {
                     //sh "docker stop $DOCKER_FRONT"
                     //sh "docker rm $DOCKER_FRONT"
                     echo "Building Docker image: $DOCKER_IMAGE:$DOCKER_TAG"
-                    sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache"
+                    sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . "//--no-cache
                 }
             }
         }
@@ -83,7 +83,7 @@ pipeline {
         stage('Test the app'){
             steps{
                 script{
-                    def tapp = """docker exec $DOCKER_FRONT $DOCKER_IMAGE:$DOCKER_TAG test bash -c 'npm run test >> result.txt'"""
+                    def tapp = """docker exec $DOCKER_FRONT test bash -c 'npm run test >> result.txt'"""
                     sh tapp
                     /*/
                     def result = sh(script: 'cat result.txt | grep -i pass || true', returnStatus: true)
