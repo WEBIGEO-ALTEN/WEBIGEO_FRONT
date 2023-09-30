@@ -111,7 +111,7 @@ pipeline {
                     sh '''
                     echo "docker login -u $DOCKER_ID -p $DOCKER_HUB_TOKEN"
                     docker login -u "webigeo" -p "yP?5Q>Ktp+YA%#_"
-                    docker push "webigeo"/$DOCKER_IMAGE:$DOCKER_TAG
+                    docker push "webigeo"/$DOCKER_IMAGE:"test"
                 '''
                 }
             }
