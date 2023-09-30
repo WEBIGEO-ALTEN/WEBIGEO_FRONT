@@ -87,12 +87,12 @@ pipeline {
 
                     sleep(time: 60,unit: 'SECONDS')
                     
-                    sh "docker cp $DOCKER_FRONT:/path/to/your/result.txt ."
+                    //sh "docker cp $DOCKER_FRONT:/path/to/your/result.txt ."
 
                      // Display the contents of result.txt
-                    def catResult = readFile('result.txt').trim()
+                    //def catResult = readFile('result.txt').trim()
 
-                    echo "Contents of result.txt: $catResult"
+                    //echo "Contents of result.txt: $catResult"
 
                     
                     if (containeId == 0){
