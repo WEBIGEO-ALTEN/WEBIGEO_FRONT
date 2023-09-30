@@ -83,18 +83,23 @@ pipeline {
         stage('Test the app'){
             steps{
                 script{
-                    def tapp = sh(script: "docker exec -d $DOCKER_FRONT npm run test > result.txt && echo \$?", returnStatus: true).trim()
-                    echo "the result of :${tapp}"
+                    //def tapp = sh(script: "docker exec -d $DOCKER_FRONT npm run test > result.txt && echo \$?", returnStatus: true).trim()
+                    sh 
+                    """
+                    docker exec -d $DOCKER_FRONT npm run test >> result.txt 
+                    cat result.txt 
+                    exit
+                    """
                     sleep(time: 60,unit: 'SECONDS')
                     
-                    //sh "docker cp $DOCKER_FRONT:/path/to/your/result.txt ."
+                    sh "docker cp $DOCKER_FRONT:/path/to/your/result.txt ."
 
                      // Display the contents of result.txt
-                    //def catResult = readFile('result.txt').trim()
+                    def catResult = readFile('result.txt').trim()
 
                     //echo "Contents of result.txt: $catResult"
-                    if (tapp == 0){
-                        echo "result of the test: $result"                        
+                    if (catResult.contains('pass')){
+                        echo "result of the test: $catResult"                        
                     } else {
                         error "The test has not passed: $result"
                     }
