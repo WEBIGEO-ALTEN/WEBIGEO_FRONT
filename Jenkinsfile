@@ -84,7 +84,7 @@ pipeline {
             steps{
                 script{
                     def tapp = sh(script: "docker exec -d $DOCKER_FRONT npm run test > result.txt && echo \$?", returnStatus: true).trim()
-
+                    echo "tapp"
                     sleep(time: 60,unit: 'SECONDS')
                     
                     //sh "docker cp $DOCKER_FRONT:/path/to/your/result.txt ."
