@@ -83,11 +83,14 @@ pipeline {
         stage('Test the app'){
             steps{
                 script{
-                    def tapp = """docker exec $DOCKER_FRONT bash -c 'npm run test >> result.txt'"""
-                    sh tapp
+                    def tapp = sh(script: "docker exec -d $DOCKER_FRONT npm run test >> result.txt && echo \$?", returnStatus: true).trim()
+
+                    sleep(time: 60,unit: 'SECONDS')
+                    
+                    sh "docker cp $containeId:/path/to/your/result.txt ."
 
                      // Display the contents of result.txt
-                    def catResult = sh(script: 'cat result.txt', returnStdout: true).trim()
+                    def catResult readFile('result.txt').trim()
                     echo "Contents of result.txt: $catResult"
 
                     def result = sh(script: 'cat result.txt | grep -i pass || true', returnStatus: true)
