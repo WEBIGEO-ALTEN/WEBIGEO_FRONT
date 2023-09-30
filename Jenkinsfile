@@ -85,14 +85,17 @@ pipeline {
                 script{
                     def tapp = """docker exec $DOCKER_FRONT bash -c 'npm run test >> result.txt'"""
                     sh tapp
-                    /*/
+
+                     // Display the contents of result.txt
+                    def catResult = sh(script: 'cat result.txt', returnStdout: true).trim()
+                    echo "Contents of result.txt: $catResult"
+
                     def result = sh(script: 'cat result.txt | grep -i pass || true', returnStatus: true)
                     if (result == 0){
                         echo "result of the test: $result"                        
                     } else {
                         error "The test has not passed: $result"
                     }
-                    /*/
                 }
             }
         }
