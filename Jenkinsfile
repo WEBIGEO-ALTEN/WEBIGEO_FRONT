@@ -101,7 +101,7 @@ pipeline {
         stage('Pushing Back End image to DockerHub') {
             environment
             {
-                DOCKER_PASS = credentials("DOCKER_HUB_TOKEN") 
+                DOCKER_HUB_TOKEN = credentials("DOCKER_HUB_TOKEN") 
             }
 
             steps {
