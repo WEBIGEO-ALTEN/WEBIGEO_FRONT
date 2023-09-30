@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'Built-in Node'
+        label 'Front_End'
     }
     environment {
         DOCKER_IMAGE = "my_react"
