@@ -85,7 +85,7 @@ pipeline {
                     """docker exec -it $DOCKER_FRONT $DOCKER_IMAGE:$DOCKER_TAG bash -c 'npm run test >> result.txt' 
                     """
                     def result = sh(script: 'cat result.txt | grep -i pass || true', returnStatus: true)
-                    if (result =! 'null'){
+                    if (result == 0){
                         echo "result of the test: $result"                        
                     } else {
                         error "The test has not passed: $result"
