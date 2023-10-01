@@ -129,7 +129,7 @@ pipeline {
                 }
             }
         }
-
+        /*/
         stage("Invoking another pipeline") {
             steps {
                 echo "Triggering another pipeline job"
@@ -149,7 +149,7 @@ pipeline {
                 }
             }
         }
-
+        /*/
         stage("End") {
             steps {
                 echo "Bye"
