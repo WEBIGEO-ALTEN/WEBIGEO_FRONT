@@ -34,7 +34,7 @@ pipeline {
                     //sh "docker stop $DOCKER_FRONT"
                     //sh "docker rm $DOCKER_FRONT"
                     echo "Building Docker image: $DOCKER_IMAGE:$DOCKER_TAG"
-                    sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . "//--no-cache
+                    sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache"
                 }
             }
         }
