@@ -4,7 +4,7 @@ pipeline {
     }
     environment {
         DOCKER_IMAGE = "my-react"
-        DOCKER_TAG = "test"
+        DOCKER_TAG = "pre"
         DOCKER_FRONT = "Front_Container"
     }
     stages {
@@ -133,7 +133,7 @@ pipeline {
         stage("Invoking another pipeline") {
             steps {
                 echo "Triggering another pipeline job"
-                build job: 'WEBIGEO', parameters: [string(name: 'param1', value: "value1")], wait: true
+                build job: 'WEBIGEO_CI_CD', parameters: [string(name: 'param1', value: "value1")], wait: true
             }
         }
         /*/
