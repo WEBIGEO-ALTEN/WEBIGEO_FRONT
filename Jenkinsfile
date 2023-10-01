@@ -135,7 +135,7 @@ pipeline {
                 echo "Triggering another pipeline job"
                 build job: 'WEBIGEO', parameters: [string(name: 'param1', value: "value1")], wait: true
             }
-
+        }
         /*/
         stage("Invoking another pipeline") {
             steps {
