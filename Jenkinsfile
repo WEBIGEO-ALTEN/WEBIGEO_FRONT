@@ -44,7 +44,7 @@ pipeline {
             steps {
                 script {
                     echo "Running Docker container: $DOCKER_FRONT"
-                    sh "docker run -d -p 3020:3000 --name $DOCKER_FRONT $DOCKER_IMAGE:$DOCKER_TAG"
+                    sh "docker run -d -p 3020:3000 --name $DOCKER_FRONT $DOCKER_ID/$DOCKER_IMAGE:$DOCKER_TAG"
                     sh "docker ps"
                 }
             }
