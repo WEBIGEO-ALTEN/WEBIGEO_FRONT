@@ -3,6 +3,7 @@ pipeline {
         label 'Front_End'
     }
     environment {
+        DOCKER_ID = "webigeo"
         DOCKER_IMAGE = "my-react"
         DOCKER_TAG = "pre"
         DOCKER_FRONT = "Front_Container"
@@ -34,7 +35,7 @@ pipeline {
                     //sh "docker stop $DOCKER_FRONT"
                     //sh "docker rm $DOCKER_FRONT"
                     echo "Building Docker image: $DOCKER_IMAGE:$DOCKER_TAG"
-                    sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache"
+                    sh "docker build -t $DOCKER_ID/$DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache"
                 }
             }
         }
@@ -112,8 +113,8 @@ pipeline {
                     echo "docker login -u $DOCKER_ID -p $DOCKER_HUB_TOKEN"
                     docker login -u "webigeo" -p "yP?5Q>Ktp+YA%#_"
                     sleep 10
-                    docker push "webigeo"/$DOCKER_IMAGE:"pre"
-                '''
+                    docker push $DOCKER_ID/$DOCKER_IMAGE:$DOCKER_TAG
+                    '''
                 }
             }
         }
