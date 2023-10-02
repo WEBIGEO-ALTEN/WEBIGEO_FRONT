@@ -3,7 +3,7 @@ FROM node:latest
 
 #Env variables
 ARG API_DNS=api.webigeo-pre.dcpepper.cloudns.ph
-
+ARG BRANCH=dev
 # Install Node.js and npm
 RUN apt update && apt install -y git nodejs npm
 RUN npm install -g serve
