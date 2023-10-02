@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 TEST
 TEST
+=======
+>>>>>>> f5412a519f7631ff526f32dd5ec9898bb366fe2f
 # Getting Started with Create React App
 TEST
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
