@@ -9,7 +9,7 @@ RUN apt update && apt install -y git nodejs npm
 RUN npm install -g serve
 
 #Clone repository
-RUN git clone https://github.com/WEBIGEO-ALTEN/WEBIGEO_FRONT.git
+RUN git clone https://github.com/WEBIGEO-ALTEN/WEBIGEO_FRONT.git --branch=$BRANCH
 WORKDIR WEBIGEO_FRONT/
 
 #Create the .env file depending on the environment
