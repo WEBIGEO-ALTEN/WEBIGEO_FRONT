@@ -1,18 +1,40 @@
 pipeline {
-    agent any
+    agent {
+        label 'Front_End'
+    }
     environment {
-        DOCKER_IMAGE = "my_react"
-        DOCKER_TAG = "front_test"
+        DOCKER_IMAGE = "my-react"
+        DOCKER_TAG = "pre"
         DOCKER_FRONT = "Front_Container"
     }
     stages {
+
+        stage("Clean the containers"){
+            steps{
+                script{
+                    def container = sh(script: 'docker ps',returnStdout: true).trim()
+
+                    echo "This is the output : ${container}"
+
+                    if (container.contains(env.DOCKER_FRONT)){
+                        sh "docker stop $DOCKER_FRONT"
+                        sh "docker rm $DOCKER_FRONT"
+                        sh "docker rmi $DOCKER_IMAGE:$DOCKER_TAG || true"
+                    }
+                    else{
+                        echo "The container is clean"
+                    }
+                }
+            }
+        }
+
         stage("Front End image") {
             steps {
                 script {
-                    sh "docker stop $DOCKER_FRONT"
-                    sh "docker rm $DOCKER_FRONT"
+                    //sh "docker stop $DOCKER_FRONT"
+                    //sh "docker rm $DOCKER_FRONT"
                     echo "Building Docker image: $DOCKER_IMAGE:$DOCKER_TAG"
-                    //sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache"
+                    sh "docker build -t $DOCKER_IMAGE:$DOCKER_TAG -f Dockerfile . --no-cache"
                 }
             }
         }
@@ -57,8 +79,45 @@ pipeline {
                 }
             }
         }
-        
 
+       stage('Test the app') {
+            steps {
+                script {
+                    // Run npm test in the Docker container and append output to result.txt
+                    def result = sh(script: "docker exec -d $DOCKER_FRONT npm run test",returnStatus: true)
+                    echo "print the results of : ${result}"
+                    // Wait for the test to complete (adjust the sleep time as needed)
+                    sleep(time: 10, unit: 'SECONDS')
+
+                    if (result == 0) {
+                        echo "Test passed"
+                    } else {
+                    error "The test has not passed: $result"
+                    }
+                }
+            }
+        }
+        
+        stage('Pushing Back End image to DockerHub') {
+            environment
+            {
+                DOCKER_HUB_TOKEN = credentials("DOCKER_HUB_TOKEN") 
+            }
+
+            steps {
+
+                script {
+                    //env.DOCKER_HUB_TOKEN = DOCKER_HUB_TOKEN
+                    sh '''
+                    echo "docker login -u $DOCKER_ID -p $DOCKER_HUB_TOKEN"
+                    docker login -u "webigeo" -p "yP?5Q>Ktp+YA%#_"
+                    sleep 10
+                    docker push "webigeo"/$DOCKER_IMAGE:"pre"
+                '''
+                }
+            }
+        }
+        /*/    
         stage("Removing the container and Image") {
             steps {
                 script {
@@ -70,14 +129,27 @@ pipeline {
                 }
             }
         }
-
+        /*/
         stage("Invoking another pipeline") {
             steps {
                 echo "Triggering another pipeline job"
-                build job: 'WEBIGEO', parameters: [string(name: 'param1', value: "value1")], wait: true
+                build job: 'WEBIGEO_CI_CD', parameters: [string(name: 'param1', value: "value1")], wait: true
             }
         }
-
+        /*/
+        stage("Invoking another pipeline") {
+            steps {
+                script {
+                    def main_pipeline = build job: 'WEBIGEO_CI_CD', parameters: [
+                        booleanParam(name: 'Docker_Build_Back_End_Image', value: true),
+                        booleanParam(name: 'Pushing_the_Back_End_image_to_DockerHub', value: true),
+                        booleanParam(name: 'Deployment_in_webigeo', value: true)
+                    ]
+                    main_pipeline.waitForCompletion("Waiting for the WEBIGEO pipeline to complete")
+                }
+            }
+        }
+        /*/
         stage("End") {
             steps {
                 echo "Bye"
